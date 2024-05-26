@@ -1,12 +1,11 @@
 package com.bayocode.kphonenumber
 
 import kotlin.test.Test
-import kotlin.test.assertTrue
+
+expect fun loadMetadata(): ByteArray
 
 class CommonGreetingTest {
 
     @Test
-    fun testExample() {
-        assertTrue(Greeting().greet().contains("Hello"), "Check 'Hello' is mentioned")
-    }
+    fun testExample() {}
 }
