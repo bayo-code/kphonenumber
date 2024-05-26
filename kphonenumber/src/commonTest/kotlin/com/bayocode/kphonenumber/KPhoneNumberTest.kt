@@ -84,7 +84,8 @@ class KPhoneNumberTest {
 
     @Test
     fun testValidNigerianNumber() {
-        val phoneNumber = kPhoneNumber.parse("7401226202", "GB")
-        assertTrue(kPhoneNumber.isValidPhoneNumber("7401226202", "GB"))
+        val phoneNumber = kPhoneNumber.parse("8100493234", "NG")
+        println(kPhoneNumber.format(phoneNumber, PhoneNumberFormat.International))
+        assertTrue(kPhoneNumber.isValidPhoneNumber("2348100493234", "NG"))
     }
 }
