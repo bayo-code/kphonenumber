@@ -36,7 +36,7 @@ class ParseManager(
             countryCode = phoneNumberParser.extractCountryCode(plusRemovedNumberString, nationalNumberBuilder, regionMetadata)
             nationalNumber = nationalNumberBuilder.toString()
         }
-        
+
         nationalNumber = phoneNumberParser.normalizePhoneNumber(nationalNumber)
         if (countryCode == 0) {
             if (nationalNumber.startsWith(regionMetadata.countryCode.toString())) {
@@ -46,7 +46,7 @@ class ParseManager(
                     return@runBlocking result
                 }
             }
-            
+
             val result = runCatching { validPhoneNumber(nationalNumber, regionMetadata, regionMetadata.countryCode, ignoreType, numberString, numberExtension) }
                 .onFailure { println("Failure: $it") }
                 .getOrNull()
@@ -59,7 +59,7 @@ class ParseManager(
                 regionMetadata = it
             }
         }
-        
+
         val result = runCatching { validPhoneNumber(nationalNumber, regionMetadata, countryCode, ignoreType, numberString, numberExtension) }.getOrNull()
         if (result != null) return@runBlocking result
         
@@ -118,7 +118,6 @@ class ParseManager(
         
         val leadingZero = nationalNumber.startsWith("0")
         val finalNationalNumber = nationalNumber.toString().toLongOrNull() ?: throw InvalidNumberException(numberString)
-        
         var type: PhoneNumberType = PhoneNumberType.Unknown
         if (!ignoreType) {
             getRegionCode(finalNationalNumber, countryCode, leadingZero)?.let { regionCode ->

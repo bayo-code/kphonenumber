@@ -1,10 +1,8 @@
 package com.bayocode.kphonenumber
 
-import kotlinx.serialization.json.Json
+import com.bayocode.kphonenumber.generated.generatedMetadata
 
-typealias MetadataCallback = () -> ByteArray
-
-class MetadataManager(private val metadataCallback: MetadataCallback) {
+class MetadataManager {
     var territories: MutableList<MetadataTerritory> = mutableListOf()
         private set
     
@@ -32,13 +30,7 @@ class MetadataManager(private val metadataCallback: MetadataCallback) {
     fun populateTerritories(): MutableList<MetadataTerritory> {
         val territoryArray = mutableListOf<MetadataTerritory>()
         try {
-            val jsonData = metadataCallback().decodeToString()
-            val json = Json {
-                ignoreUnknownKeys = true
-                encodeDefaults = true
-            }
-            
-            val metadata: PhoneNumberMetadataWrapper = json.decodeFromString(jsonData)
+            val metadata = generatedMetadata
             territoryArray.addAll(metadata.phoneNumberMetadata.territories.territory)
         } catch (e: Exception) {
             e.printStackTrace()

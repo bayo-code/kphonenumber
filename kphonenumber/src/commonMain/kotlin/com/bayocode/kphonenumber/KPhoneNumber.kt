@@ -2,8 +2,8 @@ package com.bayocode.kphonenumber
 
 import kotlinx.coroutines.runBlocking
 
-class KPhoneNumber(metadataCallback: MetadataCallback) {
-    internal val metadataManager: MetadataManager = MetadataManager(metadataCallback)
+class KPhoneNumber {
+    internal val metadataManager: MetadataManager = MetadataManager()
     private val parseManager: ParseManager
     val regexManager = RegexManager()
     
@@ -14,6 +14,11 @@ class KPhoneNumber(metadataCallback: MetadataCallback) {
     @Throws(PhoneNumberException::class, Exception::class)
     fun parse(numberString: String, region: String, ignoreType: Boolean = false): PhoneNumber {
         return parseManager.parse(numberString, region, ignoreType)
+    }
+
+    @Throws(PhoneNumberException::class, Exception::class)
+    fun parse(phoneNumber: PhoneNumber): PhoneNumber {
+        return parseManager.parse(phoneNumber.numberString, phoneNumber.regionID!!, false)
     }
     
     @Throws(PhoneNumberException::class, Exception::class)

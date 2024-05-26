@@ -3,7 +3,7 @@ package com.bayocode.kphonenumber
 import kotlin.test.*
 
 class KPhoneNumberTest {
-    private val kPhoneNumber = KPhoneNumber({ loadMetadata() })
+    private val kPhoneNumber = KPhoneNumber()
     
     @BeforeTest
     fun setup() {
@@ -80,5 +80,11 @@ class KPhoneNumberTest {
             val phoneNumber = kPhoneNumber.parse("+21373344376", "DZ")
             println(kPhoneNumber.format(phoneNumber, PhoneNumberFormat.E164))
         }
+    }
+
+    @Test
+    fun testValidNigerianNumber() {
+        val phoneNumber = kPhoneNumber.parse("7401226202", "GB")
+        assertTrue(kPhoneNumber.isValidPhoneNumber("7401226202", "GB"))
     }
 }
