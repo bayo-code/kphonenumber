@@ -15,11 +15,6 @@ class KPhoneNumber {
     fun parse(numberString: String, region: String, ignoreType: Boolean = false): PhoneNumber {
         return parseManager.parse(numberString, region, ignoreType)
     }
-
-    @Throws(PhoneNumberException::class, Exception::class)
-    fun parse(phoneNumber: PhoneNumber): PhoneNumber {
-        return parseManager.parse(phoneNumber.numberString, phoneNumber.regionID!!, false)
-    }
     
     @Throws(PhoneNumberException::class, Exception::class)
     fun isValidPhoneNumber(numberString: String, region: String, ignoreType: Boolean = false): Boolean {
