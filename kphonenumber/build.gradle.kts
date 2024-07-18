@@ -8,12 +8,15 @@ plugins {
 }
 
 kotlin {
+    jvmToolchain(17)
+
     androidTarget {
         compilations.all {
             kotlinOptions {
                 jvmTarget = "1.8"
             }
         }
+        publishAllLibraryVariants()
     }
     
     jvm("jvm")
@@ -106,4 +109,4 @@ publishing {
 }
 
 group = "com.bayocode"
-version = "0.0.2-SNAPSHOT"
+version = "0.0.3-SNAPSHOT"
