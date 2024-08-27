@@ -48,7 +48,6 @@ class ParseManager(
             }
 
             val result = runCatching { validPhoneNumber(nationalNumber, regionMetadata, regionMetadata.countryCode, ignoreType, numberString, numberExtension) }
-                .onFailure { println("Failure: $it") }
                 .getOrNull()
             if (result == null) throw InvalidNumberException("$numberString, $nationalNumber")
             return@runBlocking result
