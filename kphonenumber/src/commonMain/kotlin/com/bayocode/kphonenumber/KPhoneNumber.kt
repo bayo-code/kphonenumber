@@ -1,7 +1,5 @@
 package com.bayocode.kphonenumber
 
-import kotlinx.coroutines.runBlocking
-
 class KPhoneNumber {
     internal val metadataManager: MetadataManager = MetadataManager()
     private val parseManager: ParseManager
