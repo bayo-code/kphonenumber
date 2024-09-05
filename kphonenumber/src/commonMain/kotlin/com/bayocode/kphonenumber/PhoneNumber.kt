@@ -1,8 +1,5 @@
 package com.bayocode.kphonenumber
 
-import kotlinx.serialization.Serializable
-
-@Serializable
 data class PhoneNumber(
     val numberString: String,
     val countryCode: Int,

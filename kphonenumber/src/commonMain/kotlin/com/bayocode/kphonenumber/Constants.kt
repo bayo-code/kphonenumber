@@ -1,7 +1,5 @@
 package com.bayocode.kphonenumber
 
-import kotlinx.serialization.Serializable
-
 enum class PhoneNumberCountryCodeSource {
     NumberWithPlusSign,
     NumberWithIDD,
@@ -39,7 +37,6 @@ enum class PhoneNumberFormat {
 /// - vOIP: Voip numbers
 /// - uan: UAN numbers
 /// - unknown: Unknown number type
-@Serializable
 enum class PhoneNumberType {
     FixedLine,
     Mobile,
@@ -56,7 +53,6 @@ enum class PhoneNumberType {
     NotParsed
 }
 
-@Serializable
 enum class PossibleLengthType {
     National,
     LocalOnly

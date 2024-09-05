@@ -62,9 +62,9 @@ class PhoneNumberParser(
             
             startPosition = 1
         }
-        
+
         for (i in 1..(numberLength - startPosition).coerceAtMost(maxCountryCode)) {
-            val stringRange = IntRange(start = startPosition, endInclusive = startPosition + i)
+            val stringRange = IntRange(start = startPosition, endInclusive = (startPosition + i) - 1)
             val subNumber = fullNumber.substring(stringRange)
             val potentialCountryCode = subNumber.toIntOrNull() ?: continue
             if (metadata.filterTerritories(potentialCountryCode) != null) {
