@@ -1,3 +1,4 @@
+import com.vanniktech.maven.publish.SonatypeHost
 import org.jetbrains.kotlin.gradle.plugin.mpp.apple.XCFramework
 import java.util.*
 
@@ -5,6 +6,7 @@ plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
     `maven-publish`
+    alias(libs.plugins.maven.publish)
 }
 
 kotlin {
@@ -108,5 +110,44 @@ publishing {
     }
 }
 
-group = "com.bayocode"
-version = "0.0.4-SNAPSHOT"
+group = "com.bayo-code"
+version = "0.9.0"
+
+mavenPublishing {
+    coordinates(
+        groupId = "com.bayo-code",
+        artifactId = "kphonenumber",
+        version = version.toString()
+    )
+
+    // Configure POM metadata for the published artifact
+    pom {
+        name.set("KPhoneNumber")
+        description.set("Phone number parsing library for Kotlin Multiplatform")
+        inceptionYear.set("2024")
+        url.set("https://github.com/bayo-code/kphonenumber")
+
+        licenses {
+            license {
+                name.set("MIT")
+                url.set("https://opensource.org/licenses/MIT")
+            }
+        }
+
+        developers {
+            developer {
+                id.set("bayo-code")
+                name.set("Adebayo Jagunmolu")
+                email.set("hardebahyho@gmail.com")
+            }
+        }
+
+        scm {
+            url.set("https://github.com/bayo-code/kphonenumber")
+        }
+    }
+
+    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
+
+    signAllPublications()
+}
