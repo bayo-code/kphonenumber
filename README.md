@@ -16,8 +16,10 @@ Phone number parsing library for Kotlin Multiplatform. Based on Google’s Libph
 Add the dependency to your `build.gradle.kts`:
 
 ```kotlin
-implementation("com.bayocode:kphonenumber:")
+implementation("com.bayo-code:kphonenumber:0.9.0")
 ```
+
+This is available on Maven Central. Then create a `KPhoneNumber` object:
 
 ```kotlin
 import com.bayocode.kphonenumber.KPhoneNumber
