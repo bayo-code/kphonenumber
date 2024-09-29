@@ -2,7 +2,7 @@ package com.bayocode.kphonenumber
 
 class KPhoneNumber {
     internal val metadataManager: MetadataManager = MetadataManager()
-    private val parseManager: ParseManager
+    internal val parseManager: ParseManager
     val regexManager = RegexManager()
     
     init {
@@ -157,5 +157,20 @@ class KPhoneNumber {
     
     fun defaultRegionCode(): String {
         return PhoneNumberConstants.defaultCountry
+    }
+
+    fun partialFormatter(
+        defaultRegion: String = defaultRegionCode(),
+        withPrefix: Boolean = true,
+        maxDigits: Int? = null,
+        ignoreIntlNumbers: Boolean = false
+    ): PartialFormatter {
+        return PartialFormatter(
+            kPhoneNumber = this,
+            defaultRegion = defaultRegion,
+            withPrefix = withPrefix,
+            maxDigits = maxDigits,
+            ignoreIntlNumbers = ignoreIntlNumbers
+        )
     }
 }

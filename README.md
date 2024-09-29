@@ -69,6 +69,15 @@ kPhoneNumber.format(phoneNumber, PhoneNumberFormat.International) // +61 2 3661 
 kPhoneNumber.format(phoneNumber, PhoneNumberFormat.National) // // (02) 3661 8300
 ```
 
+### As You Type Formatting
+
+To get an As-you-type formatter to format incomplete phone numbers, you can use the following snippet:
+
+```kotlin
+val partialFormatter = kPhoneNumber.partialFormatter()
+val formattedString = partialFormatter.formatPartial("+336895555") // +33 6 89 55 55
+```
+
 ## Updating the Generated Metadata file
 
 * Put the updated `PhoneNumberMetadata.json` file in [`metadata-generator/metadata/`](metadata-generator/metadata) folder.
