@@ -6,7 +6,7 @@ class ParseManager(
     private val metadataManager: MetadataManager,
     private val regexManager: RegexManager,
 ) {
-    private val phoneNumberParser: PhoneNumberParser = PhoneNumberParser(
+    internal val phoneNumberParser: PhoneNumberParser = PhoneNumberParser(
         regex = regexManager,
         metadata = metadataManager
     )

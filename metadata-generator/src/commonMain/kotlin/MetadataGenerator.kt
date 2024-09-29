@@ -1,4 +1,3 @@
-
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
@@ -33,8 +32,9 @@ data class MetadataTerritory(
     val leadingDigits: String? = null,
 ) {
     val numberFormats: List<MetadataPhoneNumberFormat>
-        get() = availableFormats?.numberFormat?.withDefaultNationalPrefixFormattingRule(nationalPrefixFormattingRule) ?: emptyList()
-    
+        get() = availableFormats?.numberFormat?.withDefaultNationalPrefixFormattingRule(nationalPrefixFormattingRule)
+            ?: emptyList()
+
     fun generate(): String {
         return """
         |    MetadataTerritory(
@@ -44,7 +44,7 @@ data class MetadataTerritory(
         |        mainCountryForCode = ${mainCountryForCode.generate()},
         |        nationalPrefix = ${nationalPrefix.generate()},
         |        nationalPrefixFormattingRule = ${nationalPrefixFormattingRule.generate()},
-        |        nationalPrefixForParsing = ${nationalPrefixForParsing?.let { it.generate() } ?: nationalPrefix.generate() },
+        |        nationalPrefixForParsing = ${nationalPrefixForParsing?.generate() ?: nationalPrefix.generate()},
         |        nationalPrefixTransformRule = ${nationalPrefixTransformRule.generate()},
         |        preferredExtnPrefix = ${preferredExtnPrefix.generate()},
         |        emergency = ${emergency?.generate()},
@@ -101,7 +101,8 @@ data class MetadataPossibleLengths(
 }
 
 fun String?.generate(): String? {
-    return this?.let { json.encodeToString(this) }?.replace("\$", "\\\$")
+    return this?.let { json.encodeToString(this) }
+        ?.replace("$", "\\$")
 }
 
 fun Int?.generate(): String? {
@@ -138,7 +139,7 @@ data class MetadataPhoneNumberFormat(
         |    pattern = ${pattern.generate()},
         |    format = ${format.generate()},
         |    intlFormat = ${intlFormat.generate()},
-        |    leadingDigitsPatterns = ${ if (leadingDigitsPatterns != null) "listOf(${leadingDigitsPatterns?.joinToString { it.generate()!! }})" else "null" },
+        |    leadingDigitsPatterns = ${if (leadingDigitsPatterns != null) "listOf(${leadingDigitsPatterns?.joinToString { it.generate()!! }})" else "null"},
         |    nationalPrefixFormattingRule = ${nationalPrefixFormattingRule.generate()},
         |    nationalPrefixOptionalWhenFormatting = ${nationalPrefixOptionalWhenFormatting.generate()},
         |    domesticCarrierCodeFormattingRule = ${domesticCarrierCodeFormattingRule.generate()},
