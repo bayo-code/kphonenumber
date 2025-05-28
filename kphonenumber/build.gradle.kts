@@ -91,7 +91,7 @@ publishing {
 
 group = "com.bayo-code"
 
-version = "0.10.0"
+version = "0.11.0"
 
 mavenPublishing {
     coordinates(
