@@ -793,7 +793,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "1123456789",
-                            nationalNumberPattern = "3(?:7(?:1[15]|81)|8(?:21|4[16]|69|9[12]))[46]\\d{5}|(?:2(?:657|9(?:54|66))|3(?:7(?:55|77)|865))[2-8]\\d{5}|(?:2(?:2(?:2[59]|44|52)|3(?:26|44)|473|9(?:[07]2|2[26]|34|46))|3327)[45]\\d{5}|(?:2(?:284|3(?:02|23)|920)|3(?:4(?:46|8[27]|92)|541|878))[2-7]\\d{5}|(?:2(?:(?:26|62)2|320|477|9(?:42|83))|3(?:329|4(?:62|76|89)|564))[2-6]\\d{5}|(?:(?:11[1-8]|670)\\d|2(?:2(?:0[45]|1[2-6]|3[3-6])|3(?:[06]4|7[45])|494|6(?:04|1[2-8]|[36][45]|4[3-6])|80[45]|9(?:[17][4-6]|[48][45]|9[3-6]))|3(?:364|4(?:1[2-8]|[25][4-6]|3[3-6]|84)|5(?:1[2-9]|[38][4-6])|6(?:2[45]|44)|7[069][45]|8(?:0[45]|[17][2-6]|3[4-6]|5[3-6]|8[3-68])))\\d{6}|2(?:2(?:21|4[23]|6[145]|7[1-4]|8[356]|9[267])|3(?:16|3[13-8]|43|5[346-8]|9[3-5])|475|6(?:2[46]|4[78]|5[1568])|9(?:03|2[1457-9]|3[1356]|4[08]|[56][23]|82))4\\d{5}|(?:2(?:2(?:57|81)|3(?:24|46|92)|9(?:01|23|64))|3(?:4(?:42|71)|5(?:25|37|4[347]|71)|7(?:18|35|5[17])))[3-6]\\d{5}|(?:2(?:2(?:02|2[3467]|4[156]|5[45]|6[6-8]|91)|3(?:1[47]|25|[45][25]|96)|47[48]|625|932)|3(?:38[2578]|4(?:0[0-24-9]|3[78]|4[457]|58|6[03-9]|72|83|9[136-8])|5(?:2[124]|[368][23]|4[2689]|7[2-6])|7(?:16|2[15]|3[14]|4[13]|5[468]|7[2-5]|8[26])|8(?:2[5-7]|3[278]|4[3-5]|5[78]|6[1-378]|[78]7|94)))[4-6]\\d{5}",
+                            nationalNumberPattern = "3(?:7(?:1[15]|81)|8(?:21|4[16]|69|9[12]))[46]\\d{5}|(?:2(?:2(?:2[59]|44|52)|3(?:26|44)|47[35]|9(?:[07]2|2[26]|34|46))|3327)[45]\\d{5}|(?:2(?:657|9(?:54|66))|3(?:48[27]|7(?:55|77)|8(?:65|78)))[2-8]\\d{5}|(?:2(?:284|3(?:02|23)|477|622|920)|3(?:4(?:46|89|92)|541))[2-7]\\d{5}|(?:(?:11[1-8]|670)\\d|2(?:2(?:0[45]|1[2-6]|3[3-6])|3(?:[06]4|7[45])|494|6(?:04|1[2-8]|[36][45]|4[3-6])|80[45]|9(?:[17][4-6]|[48][45]|9[3-6]))|3(?:364|4(?:1[2-8]|[25][4-6]|3[3-6]|84)|5(?:1[2-9]|[38][4-6])|6(?:2[45]|44)|7[069][45]|8(?:0[45]|1[2-7]|3[4-6]|5[3-6]|7[2-6]|8[3-68])))\\d{6}|(?:2(?:2(?:62|81)|320|9(?:42|83))|3(?:329|4(?:62|7[16])|5(?:43|64)|7(?:18|5[17])))[2-6]\\d{5}|2(?:2(?:21|4[23]|6[145]|7[1-4]|8[356]|9[267])|3(?:16|3[13-8]|43|5[346-8]|9[3-5])|6(?:2[46]|4[78]|5[1568])|9(?:03|2[1457-9]|3[1356]|4[08]|[56][23]|82))4\\d{5}|(?:2(?:257|3(?:24|46|92)|9(?:01|23|64))|3(?:4(?:42|64)|5(?:25|37|4[47]|71)|7(?:35|72)|825))[3-6]\\d{5}|(?:2(?:2(?:02|2[3467]|4[156]|5[45]|6[6-8]|91)|3(?:1[47]|25|[45][25]|96)|47[48]|625|932)|3(?:38[2578]|4(?:0[0-24-9]|3[78]|4[457]|58|6[035-9]|72|83|9[136-8])|5(?:2[124]|[368][23]|4[2689]|7[2-6])|7(?:16|2[15]|3[14]|4[13]|5[468]|7[3-5]|8[26])|8(?:2[67]|3[278]|4[3-5]|5[78]|6[1-378]|[78]7|94)))[4-6]\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10",
@@ -808,7 +808,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "91123456789",
-                            nationalNumberPattern = "93(?:7(?:1[15]|81)|8(?:21|4[16]|69|9[12]))[46]\\d{5}|9(?:2(?:657|9(?:54|66))|3(?:7(?:55|77)|865))[2-8]\\d{5}|9(?:2(?:2(?:2[59]|44|52)|3(?:26|44)|473|9(?:[07]2|2[26]|34|46))|3327)[45]\\d{5}|9(?:2(?:284|3(?:02|23)|920)|3(?:4(?:46|8[27]|92)|541|878))[2-7]\\d{5}|9(?:2(?:(?:26|62)2|320|477|9(?:42|83))|3(?:329|4(?:62|76|89)|564))[2-6]\\d{5}|(?:675\\d|9(?:11[1-8]\\d|2(?:2(?:0[45]|1[2-6]|3[3-6])|3(?:[06]4|7[45])|494|6(?:04|1[2-8]|[36][45]|4[3-6])|80[45]|9(?:[17][4-6]|[48][45]|9[3-6]))|3(?:364|4(?:1[2-8]|[25][4-6]|3[3-6]|84)|5(?:1[2-9]|[38][4-6])|6(?:2[45]|44)|7[069][45]|8(?:0[45]|[17][2-6]|3[4-6]|5[3-6]|8[3-68]))))\\d{6}|92(?:2(?:21|4[23]|6[145]|7[1-4]|8[356]|9[267])|3(?:16|3[13-8]|43|5[346-8]|9[3-5])|475|6(?:2[46]|4[78]|5[1568])|9(?:03|2[1457-9]|3[1356]|4[08]|[56][23]|82))4\\d{5}|9(?:2(?:2(?:57|81)|3(?:24|46|92)|9(?:01|23|64))|3(?:4(?:42|71)|5(?:25|37|4[347]|71)|7(?:18|35|5[17])))[3-6]\\d{5}|9(?:2(?:2(?:02|2[3467]|4[156]|5[45]|6[6-8]|91)|3(?:1[47]|25|[45][25]|96)|47[48]|625|932)|3(?:38[2578]|4(?:0[0-24-9]|3[78]|4[457]|58|6[03-9]|72|83|9[136-8])|5(?:2[124]|[368][23]|4[2689]|7[2-6])|7(?:16|2[15]|3[14]|4[13]|5[468]|7[2-5]|8[26])|8(?:2[5-7]|3[278]|4[3-5]|5[78]|6[1-378]|[78]7|94)))[4-6]\\d{5}",
+                            nationalNumberPattern = "93(?:7(?:1[15]|81)|8(?:21|4[16]|69|9[12]))[46]\\d{5}|9(?:2(?:2(?:2[59]|44|52)|3(?:26|44)|47[35]|9(?:[07]2|2[26]|34|46))|3327)[45]\\d{5}|9(?:2(?:657|9(?:54|66))|3(?:48[27]|7(?:55|77)|8(?:65|78)))[2-8]\\d{5}|9(?:2(?:284|3(?:02|23)|477|622|920)|3(?:4(?:46|89|92)|541))[2-7]\\d{5}|(?:675\\d|9(?:11[1-8]\\d|2(?:2(?:0[45]|1[2-6]|3[3-6])|3(?:[06]4|7[45])|494|6(?:04|1[2-8]|[36][45]|4[3-6])|80[45]|9(?:[17][4-6]|[48][45]|9[3-6]))|3(?:364|4(?:1[2-8]|[25][4-6]|3[3-6]|84)|5(?:1[2-9]|[38][4-6])|6(?:2[45]|44)|7[069][45]|8(?:0[45]|1[2-7]|3[4-6]|5[3-6]|7[2-6]|8[3-68]))))\\d{6}|9(?:2(?:2(?:62|81)|320|9(?:42|83))|3(?:329|4(?:62|7[16])|5(?:43|64)|7(?:18|5[17])))[2-6]\\d{5}|92(?:2(?:21|4[23]|6[145]|7[1-4]|8[356]|9[267])|3(?:16|3[13-8]|43|5[346-8]|9[3-5])|6(?:2[46]|4[78]|5[1568])|9(?:03|2[1457-9]|3[1356]|4[08]|[56][23]|82))4\\d{5}|9(?:2(?:257|3(?:24|46|92)|9(?:01|23|64))|3(?:4(?:42|64)|5(?:25|37|4[47]|71)|7(?:35|72)|825))[3-6]\\d{5}|9(?:2(?:2(?:02|2[3467]|4[156]|5[45]|6[6-8]|91)|3(?:1[47]|25|[45][25]|96)|47[48]|625|932)|3(?:38[2578]|4(?:0[0-24-9]|3[78]|4[457]|58|6[035-9]|72|83|9[136-8])|5(?:2[124]|[368][23]|4[2689]|7[2-6])|7(?:16|2[15]|3[14]|4[13]|5[468]|7[3-5]|8[26])|8(?:2[67]|3[278]|4[3-5]|5[78]|6[1-378]|[78]7|94)))[4-6]\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10,11",
@@ -1042,7 +1042,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "1234567890",
-                            nationalNumberPattern = "1(?:11\\d|[2-9]\\d{3,11})|(?:316|463|(?:51|66|73)2)\\d{3,10}|(?:2(?:1[467]|2[13-8]|5[2357]|6[1-46-8]|7[1-8]|8[124-7]|9[1458])|3(?:1[1-578]|3[23568]|4[5-7]|5[1378]|6[1-38]|8[3-68])|4(?:2[1-8]|35|7[1368]|8[2457])|5(?:2[1-8]|3[357]|4[147]|5[12578]|6[37])|6(?:13|2[1-47]|4[135-8]|5[468])|7(?:2[1-8]|35|4[13478]|5[68]|6[16-8]|7[1-6]|9[45]))\\d{4,10}",
+                            nationalNumberPattern = "1(?:11\\d|[2-9]\\d{3,11})|(?:316|463)\\d{3,10}|648[34]\\d{3,9}|(?:51|66|73)2\\d{3,10}|(?:2(?:1[467]|2[13-8]|5[2357]|6[1-46-8]|7[1-8]|8[124-7]|9[1458])|3(?:1[1-578]|3[23568]|4[5-7]|5[1378]|6[1-38]|8[3-68])|4(?:2[1-8]|35|7[1368]|8[2457])|5(?:2[1-8]|3[357]|4[147]|5[12578]|6[37])|6(?:13|2[1-47]|4[135-7]|5[468])|7(?:2[1-8]|35|4[13478]|5[68]|6[16-8]|7[1-6]|9[45]))\\d{4,10}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "[4-13]",
@@ -1057,7 +1057,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "664123456",
-                            nationalNumberPattern = "6(?:5[0-3579]|6[013-9]|[7-9]\\d)\\d{4,10}",
+                            nationalNumberPattern = "6(?:485|(?:5[0-3579]|6[013-9]|[7-9]\\d)\\d)\\d{3,9}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "[7-13]",
@@ -1150,7 +1150,10 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d{3})(\\d{3,10})",
                                     format = "\$1 \$2",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("(?:31|4)6|51|6(?:5[0-3579]|[6-9])|7(?:20|32|8)|[89]"),
+                                    leadingDigitsPatterns = listOf(
+                                        "(?:31|4)6|51|6(?:48|5[0-3579]|[6-9])|7(?:20|32|8)|[89]",
+                                        "(?:31|4)6|51|6(?:485|5[0-3579]|[6-9])|7(?:20|32|8)|[89]"
+                                    ),
                                     nationalPrefixFormattingRule = "\$NP\$FG",
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -1936,7 +1939,7 @@ internal val generatedMetadata by lazy {
                         personalNumber = null,
                         premiumRate = MetadataPhoneNumberDesc(
                             exampleNumber = "90012345",
-                            nationalNumberPattern = "(?:70(?:2[0-57]|3[04-7]|44|6[4-69]|7[0579])|90\\d\\d)\\d{4}",
+                            nationalNumberPattern = "(?:70(?:2[0-57]|3[04-7]|44|6[04-69]|7[0579])|90\\d\\d)\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -1965,7 +1968,7 @@ internal val generatedMetadata by lazy {
                         voip = null,
                         uan = MetadataPhoneNumberDesc(
                             exampleNumber = "78102345",
-                            nationalNumberPattern = "78(?:0[57]|1[014-8]|2[25]|3[15-8]|48|[56]0|7[06-8]|9\\d)\\d{4}",
+                            nationalNumberPattern = "78(?:0[578]|1[014-8]|2[25]|3[15-8]|48|5[05]|60|7[06-8]|9\\d)\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -2321,7 +2324,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "79561234",
-                            nationalNumberPattern = "(?:29|[67][125-9])\\d{6}",
+                            nationalNumberPattern = "(?:29|6[124-9]|7[125-9])\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -2362,26 +2365,26 @@ internal val generatedMetadata by lazy {
                         preferredExtnPrefix = null,
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
-                            exampleNumber = "20211234",
-                            nationalNumberPattern = "2090\\d{4}|2(?:02|1[037]|2[45]|3[68]|4\\d)\\d{5}",
+                            exampleNumber = "0120211234",
+                            nationalNumberPattern = "2090\\d{4}|(?:012\\d\\d|2(?:02|1[037]|2[45]|3[68]|4\\d))\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
-                                national = "8",
+                                national = "8,10",
                                 localOnly = null
                             ),
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "[24-689]\\d{7}",
+                            nationalNumberPattern = "(?:01\\d|[24-689])\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
-                            exampleNumber = "90011234",
-                            nationalNumberPattern = "(?:4[0-8]|[56]\\d|9[013-9])\\d{6}",
+                            exampleNumber = "0195123456",
+                            nationalNumberPattern = "(?:01(?:2[5-9]|[4-69]\\d)|4[0-8]|[56]\\d|9[013-9])\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
-                                national = "8",
+                                national = "8,10",
                                 localOnly = null
                             ),
                         ),
@@ -2419,6 +2422,14 @@ internal val generatedMetadata by lazy {
                                     nationalPrefixFormattingRule = null,
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
+                                ), MetadataPhoneNumberFormat(
+                                    pattern = "(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})",
+                                    format = "\$1 \$2 \$3 \$4 \$5",
+                                    intlFormat = null,
+                                    leadingDigitsPatterns = listOf("0"),
+                                    nationalPrefixFormattingRule = null,
+                                    nationalPrefixOptionalWhenFormatting = null,
+                                    domesticCarrierCodeFormattingRule = null,
                                 )
                             )
                         ),
@@ -2445,13 +2456,13 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "590\\d{6}|(?:69|80|9\\d)\\d{7}",
+                            nationalNumberPattern = "(?:590\\d|7090)\\d{5}|(?:69|80|9\\d)\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "690001234",
-                            nationalNumberPattern = "69(?:0\\d\\d|1(?:2[2-9]|3[0-5])|4(?:0[89]|1[2-6]|9\\d)|6(?:1[016-9]|5[0-4]|[67]\\d))\\d{4}",
+                            nationalNumberPattern = "(?:69(?:0\\d\\d|1(?:2[2-9]|3[0-5])|4(?:0[89]|1[2-6]|9\\d)|6(?:1[016-9]|5[0-4]|[67]\\d))|7090[0-4])\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -2474,7 +2485,7 @@ internal val generatedMetadata by lazy {
                         voicemail = null,
                         voip = MetadataPhoneNumberDesc(
                             exampleNumber = "976012345",
-                            nationalNumberPattern = "9(?:(?:39[5-7]|76[018])\\d|475[0-5])\\d{4}",
+                            nationalNumberPattern = "9(?:(?:39[5-7]|76[018])\\d|475[0-6])\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -2774,7 +2785,7 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "(?:[1-46-9]\\d\\d|5(?:[0-46-9]\\d|5[0-46-9]))\\d{8}|[1-9]\\d{9}|[3589]\\d{8}|[34]\\d{7}",
+                            nationalNumberPattern = "[1-467]\\d{9,10}|55[0-46-9]\\d{8}|[34]\\d{7}|55\\d{7,8}|(?:5[0-46-9]|[89]\\d)\\d{7,9}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
@@ -2790,8 +2801,8 @@ internal val generatedMetadata by lazy {
                         pager = null,
                         personalNumber = null,
                         premiumRate = MetadataPhoneNumberDesc(
-                            exampleNumber = "300123456",
-                            nationalNumberPattern = "300\\d{6}|[59]00\\d{6,7}",
+                            exampleNumber = "500123456",
+                            nationalNumberPattern = "[59]00\\d{6,7}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9,10",
@@ -2800,7 +2811,7 @@ internal val generatedMetadata by lazy {
                         ),
                         sharedCost = MetadataPhoneNumberDesc(
                             exampleNumber = "40041234",
-                            nationalNumberPattern = "(?:30[03]\\d{3}|4(?:0(?:0\\d|20)|370))\\d{4}|300\\d{5}",
+                            nationalNumberPattern = "(?:30[03]\\d{3}|4(?:0(?:0\\d|20)|370|864))\\d{4}|300\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8,10",
@@ -2833,7 +2844,10 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d{4})(\\d{4})",
                                     format = "\$1-\$2",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("300|4(?:0[02]|37)", "4(?:02|37)0|[34]00"),
+                                    leadingDigitsPatterns = listOf(
+                                        "300|4(?:0[02]|37|86)",
+                                        "300|4(?:0(?:0|20)|370|864)"
+                                    ),
                                     nationalPrefixFormattingRule = null,
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -3357,7 +3371,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "5062345678",
-                            nationalNumberPattern = "(?:2(?:04|[23]6|[48]9|50|63)|3(?:06|43|54|6[578]|82)|4(?:03|1[68]|[26]8|3[178]|50|74)|5(?:06|1[49]|48|79|8[147])|6(?:04|[18]3|39|47|72)|7(?:0[59]|42|53|78|8[02])|8(?:[06]7|19|25|7[39])|90[25])[2-9]\\d{6}",
+                            nationalNumberPattern = "(?:2(?:04|[23]6|[48]9|5[07]|63)|3(?:06|43|54|6[578]|82)|4(?:03|1[68]|[26]8|3[178]|50|74)|5(?:06|1[49]|48|79|8[147])|6(?:04|[18]3|39|47|72)|7(?:0[59]|42|53|78|8[02])|8(?:[06]7|19|25|7[39])|9(?:0[25]|42))[2-9]\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10",
@@ -3366,13 +3380,13 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "(?:[2-8]\\d|90)\\d{8}|3\\d{6}",
+                            nationalNumberPattern = "[2-9]\\d{9}|3\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "5062345678",
-                            nationalNumberPattern = "(?:2(?:04|[23]6|[48]9|50|63)|3(?:06|43|54|6[578]|82)|4(?:03|1[68]|[26]8|3[178]|50|74)|5(?:06|1[49]|48|79|8[147])|6(?:04|[18]3|39|47|72)|7(?:0[59]|42|53|78|8[02])|8(?:[06]7|19|25|7[39])|90[25])[2-9]\\d{6}",
+                            nationalNumberPattern = "(?:2(?:04|[23]6|[48]9|5[07]|63)|3(?:06|43|54|6[578]|82)|4(?:03|1[68]|[26]8|3[178]|50|74)|5(?:06|1[49]|48|79|8[147])|6(?:04|[18]3|39|47|72)|7(?:0[59]|42|53|78|8[02])|8(?:[06]7|19|25|7[39])|9(?:0[25]|42))[2-9]\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10",
@@ -3381,8 +3395,8 @@ internal val generatedMetadata by lazy {
                         ),
                         pager = null,
                         personalNumber = MetadataPhoneNumberDesc(
-                            exampleNumber = "5002345678",
-                            nationalNumberPattern = "52(?:3(?:[2-46-9][02-9]\\d|5(?:[02-46-9]\\d|5[0-46-9]))|4(?:[2-478][02-9]\\d|5(?:[034]\\d|2[024-9]|5[0-46-9])|6(?:0[1-9]|[2-9]\\d)|9(?:[05-9]\\d|2[0-5]|49)))\\d{4}|52[34][2-9]1[02-9]\\d{4}|(?:5(?:00|2[125-9]|33|44|66|77|88)|622)[2-9]\\d{6}",
+                            exampleNumber = "5219023456",
+                            nationalNumberPattern = "52(?:3(?:[2-46-9][02-9]\\d|5(?:[02-46-9]\\d|5[0-46-9]))|4(?:[2-478][02-9]\\d|5(?:[034]\\d|2[024-9]|5[0-46-9])|6(?:0[1-9]|[2-9]\\d)|9(?:[05-9]\\d|2[0-5]|49)))\\d{4}|52[34][2-9]1[02-9]\\d{4}|(?:5(?:2[125-9]|33|44|66|77|88)|6(?:22|33))[2-9]\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10",
@@ -4450,22 +4464,22 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "6012345678",
-                            nationalNumberPattern = "601055(?:[0-4]\\d|50)\\d\\d|6010(?:[0-4]\\d|5[0-4])\\d{4}|60(?:[124-7][2-9]|8[1-9])\\d{6}",
+                            nationalNumberPattern = "601055(?:[0-4]\\d|50)\\d\\d|6010(?:[0-4]\\d|5[0-4])\\d{4}|(?:46|60(?:[18][1-9]|[24-7][2-9]))\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
-                                national = "10",
-                                localOnly = "7"
+                                national = "8,10",
+                                localOnly = "4,7"
                             ),
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "(?:60\\d\\d|9101)\\d{6}|(?:1\\d|3)\\d{9}",
+                            nationalNumberPattern = "(?:46|60\\d\\d)\\d{6}|(?:1\\d|[39])\\d{9}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "3211234567",
-                            nationalNumberPattern = "333301[0-5]\\d{3}|3333(?:00|2[5-9]|[3-9]\\d)\\d{4}|(?:3(?:24[1-9]|3(?:00|3[0-24-9]))|9101)\\d{6}|3(?:0[0-5]|1\\d|2[0-3]|5[01]|70)\\d{7}",
+                            nationalNumberPattern = "333301[0-5]\\d{3}|3333(?:00|2[5-9]|[3-9]\\d)\\d{4}|(?:3(?:(?:0[0-5]|1\\d|5[01]|70)\\d|2(?:[0-3]\\d|4[1-9])|3(?:00|3[0-24-9]))|9(?:101|408))\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10",
@@ -4476,10 +4490,10 @@ internal val generatedMetadata by lazy {
                         personalNumber = null,
                         premiumRate = MetadataPhoneNumberDesc(
                             exampleNumber = "19001234567",
-                            nationalNumberPattern = "19(?:0[01]|4[78])\\d{7}",
+                            nationalNumberPattern = "(?:19(?:0[01]|4[78])|901)\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
-                                national = "11",
+                                national = "10,11",
                                 localOnly = null
                             ),
                         ),
@@ -4499,10 +4513,18 @@ internal val generatedMetadata by lazy {
                         availableFormats = MetadataAvailableFormat(
                             numberFormat = listOf(
                                 MetadataPhoneNumberFormat(
+                                    pattern = "(\\d{4})(\\d{4})",
+                                    format = "\$1 \$2",
+                                    intlFormat = null,
+                                    leadingDigitsPatterns = listOf("46"),
+                                    nationalPrefixFormattingRule = null,
+                                    nationalPrefixOptionalWhenFormatting = null,
+                                    domesticCarrierCodeFormattingRule = null,
+                                ), MetadataPhoneNumberFormat(
                                     pattern = "(\\d{3})(\\d{7})",
                                     format = "\$1 \$2",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("6"),
+                                    leadingDigitsPatterns = listOf("6|90"),
                                     nationalPrefixFormattingRule = "(\$FG)",
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = "\$NP\$CC \$FG",
@@ -4510,7 +4532,7 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d{3})(\\d{7})",
                                     format = "\$1 \$2",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("3[0-357]|91"),
+                                    leadingDigitsPatterns = listOf("3[0-357]|9[14]"),
                                     nationalPrefixFormattingRule = null,
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = "\$NP\$CC \$FG",
@@ -5068,7 +5090,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "601123456",
-                            nationalNumberPattern = "(?:60[1-8]\\d|7(?:0(?:[2-5]\\d|60)|19[01]|[2379]\\d\\d))\\d{5}",
+                            nationalNumberPattern = "(?:60[1-8]\\d|7(?:0(?:[2-5]\\d|60)|19[0-2]|[2379]\\d\\d))\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -5205,7 +5227,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "15123456789",
-                            nationalNumberPattern = "15310\\d{6}|1(?:6[023]|7[0-57-9])\\d{7,8}|1(?:5[0-25-9]|76)\\d{8}",
+                            nationalNumberPattern = "1(?:(?:5(?:[0-25-9]\\d\\d|310)|76\\d\\d)\\d{6}|6[023]\\d{7,8})|17\\d{8}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10,11",
@@ -5502,7 +5524,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "32123456",
-                            nationalNumberPattern = "(?:(?:2\\d|9[1-46-9])\\d|3(?:[0-37]\\d|4[013]|5[0-58]|6[01347-9]|8[0-8]|9[0-79])|4(?:[0-25]\\d|[34][02-9]|6[013-579]|7[013579]|8[0-47]|9[0-27])|5(?:[0-36]\\d|4[0146-9]|5[03-57-9]|7[0568]|8[0-358]|9[0-69])|6(?:[013578]\\d|2[0-68]|4[02-8]|6[01689]|9[015689])|7(?:[0-69]\\d|7[03-9]|8[0147])|8(?:[16-9]\\d|2[0-58]))\\d{5}",
+                            nationalNumberPattern = "(?:2(?:[0-59][1-9]|[6-8]\\d)|3(?:[0-3][1-9]|4[13]|5[1-58]|6[1347-9]|7\\d|8[1-8]|9[1-79])|4(?:[0-25][1-9]|[34][2-9]|6[13-579]|7[13579]|8[1-47]|9[127])|5(?:[0-36][1-9]|4[146-9]|5[3-57-9]|7[568]|8[1-358]|9[1-69])|6(?:[0135][1-9]|2[1-68]|4[2-8]|6[1689]|[78]\\d|9[15689])|7(?:[0-69][1-9]|7[3-9]|8[147])|8(?:[16-9][1-9]|2[1-58])|9(?:[1-47-9][1-9]|6\\d))\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -5517,7 +5539,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "34412345",
-                            nationalNumberPattern = "(?:[2-7]\\d|8[126-9]|9[1-46-9])\\d{6}",
+                            nationalNumberPattern = "(?:2[6-8]|37|6[78]|96)\\d{6}|(?:2[0-59]|3[0-689]|[457]\\d|6[0-69]|8[126-9]|9[1-47-9])[1-9]\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -5930,7 +5952,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "51234567",
-                            nationalNumberPattern = "(?:5\\d{5}|8(?:1(?:0(?:0(?:00|[178]\\d)|[3-9]\\d\\d)|(?:1(?:0[236]|1\\d)|(?:2[0-59]|[3-79]\\d)\\d)\\d)|2(?:0(?:0(?:00|4\\d)|(?:19|[2-7]\\d)\\d)|(?:(?:[124-6]\\d|3[5-9])\\d|7(?:[0-79]\\d|8[13-9])|8(?:[2-6]\\d|7[01]))\\d)|[349]\\d{4}))\\d\\d|5(?:(?:[02]\\d|5[0-478])\\d|1(?:[0-8]\\d|95)|6(?:4[0-4]|5[1-589]))\\d{3}",
+                            nationalNumberPattern = "(?:5\\d{5}|8(?:1(?:0(?:0(?:00|[178]\\d)|[3-9]\\d\\d)|(?:1(?:0[2-6]|1\\d)|(?:2[0-59]|[3-79]\\d)\\d)\\d)|2(?:0(?:0(?:00|4\\d)|(?:19|[2-7]\\d)\\d)|(?:(?:[124-69]\\d|3[5-9])\\d|7(?:[0-79]\\d|8[13-9])|8(?:[2-6]\\d|7[01]))\\d)|[349]\\d{4}))\\d\\d|5(?:(?:[02]\\d|5[0-478])\\d|1(?:[0-8]\\d|95)|6(?:4[0-4]|5[1-589]))\\d{3}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "7,8",
@@ -6135,7 +6157,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "650123456",
-                            nationalNumberPattern = "(?:6(?:[0-79]\\d|8[0-247-9])|7(?:[0167]\\d|2[0-4]|5[01]|8[0-3]))\\d{6}",
+                            nationalNumberPattern = "(?:6(?:[0-79]\\d|8[0-247-9])|7(?:[0167]\\d|2[0-467]|5[0-3]|8[0-7]))\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -6424,7 +6446,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "131234567",
-                            nationalNumberPattern = "1[35-7][1-8]\\d{3,6}|(?:1[49][1-8]|[23568][1-8]\\d|9(?:00|[1-8]\\d))\\d{2,6}",
+                            nationalNumberPattern = "1[3-7][1-8]\\d{3,6}|(?:19[1-8]|[23568][1-8]\\d|9(?:00|[1-8]\\d))\\d{2,6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "[5-9]",
@@ -6532,7 +6554,7 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d)(\\d{4,9})",
                                     format = "\$1 \$2",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("(?:1[49]|[2568])[1-8]|3(?:0[1-9]|[1-9])|9"),
+                                    leadingDigitsPatterns = listOf("(?:19|[2568])[1-8]|3(?:0[1-9]|[1-9])|9"),
                                     nationalPrefixFormattingRule = "\$NP\$FG",
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -7171,7 +7193,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "4732691234",
-                            nationalNumberPattern = "473(?:2(?:3[0-2]|69)|3(?:2[89]|86)|4(?:[06]8|3[5-9]|4[0-4]|5[579]|73|90)|63[68]|7(?:58|84)|800|938)\\d{4}",
+                            nationalNumberPattern = "473(?:2(?:3[0-2]|69)|3(?:2[89]|86)|4(?:[06]8|3[5-9]|4[0-4]|5[59]|73|90)|63[68]|7(?:58|84)|800|938)\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10",
@@ -7186,7 +7208,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "4734031234",
-                            nationalNumberPattern = "473(?:4(?:0[2-79]|1[04-9]|2[0-5]|49|5[68])|5(?:2[01]|3[3-8])|901)\\d{4}",
+                            nationalNumberPattern = "473(?:4(?:0[2-79]|1[04-9]|2[0-5]|49|5[6-8])|5(?:2[01]|3[3-8])|901)\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10",
@@ -7255,7 +7277,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "555123456",
-                            nationalNumberPattern = "5(?:(?:(?:0555|1(?:[17]77|555))[5-9]|757(?:7[7-9]|8[01]))\\d|22252[0-4])\\d\\d|(?:5(?:0(?:0(?:0\\d|11|22|3[0-6]|44|5[05]|77|88|9[09])|111|22[02]|77\\d)|1(?:1(?:[03][01]|[124]\\d)|4\\d\\d)|[23]555|4(?:4\\d\\d|555)|5(?:[0157-9]\\d\\d|200)|6[89]\\d\\d|7(?:[0147-9]\\d\\d|5(?:00|[57]5))|8(?:0(?:[018]\\d|2[0-4])|5(?:55|8[89])|8(?:55|88))|9(?:090|[1-35-9]\\d\\d))|790\\d\\d)\\d{4}|5(?:0(?:0[17]0|505)|1(?:0[01]0|1(?:07|33|51))|2(?:0[02]0|2[25]2)|3(?:0[03]0|3[35]3)|(?:40[04]|900)0|5222)[0-4]\\d{3}",
+                            nationalNumberPattern = "5(?:(?:(?:0555|1(?:[17]77|555))[5-9]|757(?:7[7-9]|8[01]))\\d|22252[0-4])\\d\\d|5(?:0(?:0[17]0|505)|1(?:0[01]0|1(?:07|33|51))|2(?:0[02]0|2[25]2)|3(?:0[03]0|3[35]3)|(?:40[04]|900)0|5222)[0-4]\\d{3}|(?:5(?:0(?:0(?:0\\d|11|22|3[0-6]|44|5[05]|77|88|9[09])|(?:[14]\\d|77)\\d|22[02])|1(?:1(?:[03][01]|[124]\\d|5[2-6]|7[0-4])|4\\d\\d)|[23]555|4(?:4\\d\\d|555)|5(?:[0157-9]\\d\\d|200|333|444)|6[89]\\d\\d|7(?:[0147-9]\\d\\d|5(?:00|[57]5))|8(?:0(?:[018]\\d|2[0-4])|5(?:55|8[89])|8(?:55|88))|9(?:090|[1-35-9]\\d\\d))|790\\d\\d)\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -7346,13 +7368,13 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "[56]94\\d{6}|(?:80|9\\d)\\d{7}",
+                            nationalNumberPattern = "(?:[56]94\\d|7093)\\d{5}|(?:80|9\\d)\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "694201234",
-                            nationalNumberPattern = "694(?:[0-249]\\d|3[0-8])\\d{4}",
+                            nationalNumberPattern = "(?:694(?:[0-249]\\d|3[0-8])|7093[0-3])\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -7375,7 +7397,7 @@ internal val generatedMetadata by lazy {
                         voicemail = null,
                         voip = MetadataPhoneNumberDesc(
                             exampleNumber = "976012345",
-                            nationalNumberPattern = "9(?:(?:396|76\\d)\\d|476[0-5])\\d{4}",
+                            nationalNumberPattern = "9(?:(?:396|76\\d)\\d|476[0-6])\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -7389,7 +7411,7 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d{3})(\\d{2})(\\d{2})(\\d{2})",
                                     format = "\$1 \$2 \$3 \$4",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("[56]|9[47]"),
+                                    leadingDigitsPatterns = listOf("[5-7]|9[47]"),
                                     nationalPrefixFormattingRule = "\$NP\$FG",
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -7861,13 +7883,13 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "590\\d{6}|(?:69|80|9\\d)\\d{7}",
+                            nationalNumberPattern = "(?:590\\d|7090)\\d{5}|(?:69|80|9\\d)\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "690001234",
-                            nationalNumberPattern = "69(?:0\\d\\d|1(?:2[2-9]|3[0-5])|4(?:0[89]|1[2-6]|9\\d)|6(?:1[016-9]|5[0-4]|[67]\\d))\\d{4}",
+                            nationalNumberPattern = "(?:69(?:0\\d\\d|1(?:2[2-9]|3[0-5])|4(?:0[89]|1[2-6]|9\\d)|6(?:1[016-9]|5[0-4]|[67]\\d))|7090[0-4])\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -7890,7 +7912,7 @@ internal val generatedMetadata by lazy {
                         voicemail = null,
                         voip = MetadataPhoneNumberDesc(
                             exampleNumber = "976012345",
-                            nationalNumberPattern = "9(?:(?:39[5-7]|76[018])\\d|475[0-5])\\d{4}",
+                            nationalNumberPattern = "9(?:(?:39[5-7]|76[018])\\d|475[0-6])\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -7904,7 +7926,7 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d{3})(\\d{2})(\\d{2})(\\d{2})",
                                     format = "\$1 \$2 \$3 \$4",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("[569]"),
+                                    leadingDigitsPatterns = listOf("[5-79]"),
                                     nationalPrefixFormattingRule = "\$NP\$FG",
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -8216,7 +8238,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "6713001234",
-                            nationalNumberPattern = "671(?:2\\d\\d|3(?:00|3[39]|4[349]|55|6[26])|4(?:00|56|7[1-9]|8[02-46-9])|5(?:55|6[2-5]|88)|6(?:3[2-578]|4[24-9]|5[34]|78|8[235-9])|7(?:[0479]7|2[0167]|3[45]|8[7-9])|8(?:[2-57-9]8|6[48])|9(?:2[29]|6[79]|7[1279]|8[7-9]|9[78]))\\d{4}",
+                            nationalNumberPattern = "671(?:2\\d\\d|3(?:00|3[39]|4[349]|55|6[26])|4(?:00|56|7[1-9]|8[02-9])|5(?:55|6[2-5]|88)|6(?:3[2-578]|4[24-9]|5[34]|78|8[235-9])|7(?:[0479]7|2[0167]|3[45]|8[7-9])|8(?:[2-57-9]8|6[478])|9(?:2[29]|6[79]|7[1279]|8[7-9]|9[78]))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10",
@@ -8231,7 +8253,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "6713001234",
-                            nationalNumberPattern = "671(?:2\\d\\d|3(?:00|3[39]|4[349]|55|6[26])|4(?:00|56|7[1-9]|8[02-46-9])|5(?:55|6[2-5]|88)|6(?:3[2-578]|4[24-9]|5[34]|78|8[235-9])|7(?:[0479]7|2[0167]|3[45]|8[7-9])|8(?:[2-57-9]8|6[48])|9(?:2[29]|6[79]|7[1279]|8[7-9]|9[78]))\\d{4}",
+                            nationalNumberPattern = "671(?:2\\d\\d|3(?:00|3[39]|4[349]|55|6[26])|4(?:00|56|7[1-9]|8[02-9])|5(?:55|6[2-5]|88)|6(?:3[2-578]|4[24-9]|5[34]|78|8[235-9])|7(?:[0479]7|2[0167]|3[45]|8[7-9])|8(?:[2-57-9]8|6[478])|9(?:2[29]|6[79]|7[1279]|8[7-9]|9[78]))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10",
@@ -8373,7 +8395,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "6091234",
-                            nationalNumberPattern = "510\\d{4}|(?:6\\d|7[0-5])\\d{5}",
+                            nationalNumberPattern = "(?:510|6\\d\\d|7(?:[0-5]\\d|6[01]))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "7",
@@ -8454,7 +8476,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "51234567",
-                            nationalNumberPattern = "(?:4(?:44[0-25-9]|6(?:1[0-7]|4[0-57-9]|6[0-4]))|5(?:73[0-6]|95[0-8])|6(?:26[013-8]|66[0-3])|70(?:7[1-8]|8[0-4])|848[0-35-9]|9(?:29[013-9]|39[01]|59[0-4]|899))\\d{4}|(?:4(?:4[0-35-9]|6[02357-9]|70)|5(?:[1-59][0-46-9]|6[0-4689]|7[0-246-9])|6(?:0[1-9]|[13-59]\\d|[268][0-57-9]|7[0-79])|70[1-39]|84[0-39]|9(?:0[1-9]|1[02-9]|[2358][0-8]|[467]\\d))\\d{5}",
+                            nationalNumberPattern = "(?:4(?:44[0-35-9]|6(?:1[0-79]|4[0-57-9]|6[0-4])|7(?:[26][0-5]|4[0-48]))|5(?:73[0-6]|95[0-8])|6(?:26[013-8]|(?:66|78)[0-5])|70(?:7[1-8]|8[0-4])|84(?:4[0-2]|8[0-35-9])|9(?:29[013-9]|39[014-9]|59[0-4]|899))\\d{4}|(?:4(?:4[0-35-9]|6[02357-9]|7[015])|5(?:[1-59][0-46-9]|6[0-4689]|7[0-246-9])|6(?:0[1-9]|[13-59]\\d|[268][0-57-9]|7[0-79])|70[1-59]|84[0-39]|9(?:0[1-9]|1[02-9]|[2358][0-8]|[467]\\d))\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -8560,7 +8582,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "22123456",
-                            nationalNumberPattern = "2(?:2(?:0[0-59]|1[1-9]|[23]\\d|4[02-6]|5[57]|6[245]|7[0135689]|8[01346-9]|9[0-2])|4(?:0[578]|2[3-59]|3[13-9]|4[0-68]|5[1-3589])|5(?:0[2357-9]|1[1-356]|4[03-5]|5\\d|6[014-69]|7[04]|80)|6(?:[056]\\d|17|2[067]|3[047]|4[0-378]|[78][0-8]|9[01])|7(?:0[5-79]|6[46-9]|7[02-9]|8[034]|91)|8(?:79|8[0-357-9]|9[1-57-9]))\\d{4}",
+                            nationalNumberPattern = "2(?:2(?:0[0-59]|1[1-9]|[23]\\d|4[02-7]|5[57]|6[245]|7[0135689]|8[01346-9]|9[0-2])|4(?:0[578]|2[3-59]|3[13-9]|4[0-68]|5[1-3589])|5(?:0[2357-9]|1[1-356]|4[03-5]|5\\d|6[014-69]|7[04]|80)|6(?:[056]\\d|17|2[067]|3[047]|4[0-378]|[78][0-8]|9[01])|7(?:0[5-79]|6[46-9]|7[02-9]|8[034]|91)|8(?:79|8[0-357-9]|9[1-57-9]))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -8642,13 +8664,13 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "(?:[24-69]\\d|3[0-79])\\d{7}|80\\d{5,7}|[1-79]\\d{7}|6\\d{5,6}",
+                            nationalNumberPattern = "[2-69]\\d{8}|80\\d{5,7}|[1-79]\\d{7}|6\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "921234567",
-                            nationalNumberPattern = "9(?:(?:0[1-9]|[12589]\\d)\\d\\d|7(?:[0679]\\d\\d|5(?:[01]\\d|44|55|77|9[5-7])))\\d{4}|98\\d{6}",
+                            nationalNumberPattern = "9(?:(?:0[1-9]|[12589]\\d)\\d\\d|7(?:[0679]\\d\\d|5(?:[01]\\d|44|55|77|9[5-79])))\\d{4}|98\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8,9",
@@ -8666,11 +8688,11 @@ internal val generatedMetadata by lazy {
                             ),
                         ),
                         premiumRate = MetadataPhoneNumberDesc(
-                            exampleNumber = "611234",
-                            nationalNumberPattern = "6[01459]\\d{6}|6[01]\\d{4,5}",
+                            exampleNumber = "6001234",
+                            nationalNumberPattern = "6[01459]\\d{6}|6[01]\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
-                                national = "[6-8]",
+                                national = "7,8",
                                 localOnly = null
                             ),
                         ),
@@ -8698,7 +8720,7 @@ internal val generatedMetadata by lazy {
                         availableFormats = MetadataAvailableFormat(
                             numberFormat = listOf(
                                 MetadataPhoneNumberFormat(
-                                    pattern = "(\\d{2})(\\d{2})(\\d{2,3})",
+                                    pattern = "(\\d{2})(\\d{2})(\\d{3})",
                                     format = "\$1 \$2 \$3",
                                     intlFormat = null,
                                     leadingDigitsPatterns = listOf("6[01]"),
@@ -9317,7 +9339,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "502345678",
-                            nationalNumberPattern = "55(?:410|57[0-289])\\d{4}|5(?:(?:[0-2][02-9]|[36]\\d|[49][2-9]|8[3-7])\\d|5(?:01|2\\d|3[0-3]|4[34]|5[0-25689]|6[6-8]|7[0-267]|8[7-9]|9[1-9]))\\d{5}",
+                            nationalNumberPattern = "55(?:4(?:[01]0|5[0-2])|57[0-289])\\d{4}|5(?:(?:[0-2][02-9]|[36]\\d|[49][2-9]|8[3-7])\\d|5(?:01|2\\d|3[0-3]|4[34]|5[0-25689]|6[6-8]|7[0-267]|8[7-9]|9[1-9]))\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -9364,7 +9386,7 @@ internal val generatedMetadata by lazy {
                         ),
                         voip = MetadataPhoneNumberDesc(
                             exampleNumber = "771234567",
-                            nationalNumberPattern = "7(?:38(?:0\\d|5[0-2569]|88)|8(?:33|55|77|81)\\d)\\d{4}|7(?:18|2[23]|3[237]|47|6[258]|7\\d|82|9[2-9])\\d{6}",
+                            nationalNumberPattern = "7(?:38(?:[05]\\d|8[08])|8(?:33|55|77|81)\\d)\\d{4}|7(?:18|2[23]|3[237]|47|6[258]|7\\d|82|9[2-9])\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -9878,7 +9900,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "9123456789",
-                            nationalNumberPattern = "9(?:(?:0(?:[0-35]\\d|4[4-6])|(?:[13]\\d|2[0-3])\\d)\\d|9(?:[0-46]\\d\\d|5[15]0|8(?:[12]\\d|88)|9(?:0[0-3]|[19]\\d|21|69|77|8[7-9])))\\d{5}",
+                            nationalNumberPattern = "9(?:(?:0[0-5]|[13]\\d|2[0-3])\\d\\d|9(?:[0-46]\\d\\d|5(?:10|5\\d)|8(?:[12]\\d|88)|9(?:0[0-3]|[19]\\d|21|69|77|8[7-9])))\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10",
@@ -11541,7 +11563,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "3452221234",
-                            nationalNumberPattern = "345(?:2(?:22|3[23]|44|66)|333|444|6(?:23|38|40)|7(?:30|4[35-79]|6[6-9]|77)|8(?:00|1[45]|[48]8)|9(?:14|4[035-9]))\\d{4}",
+                            nationalNumberPattern = "345(?:2(?:22|3[23]|44|66)|333|444|6(?:23|38|40)|7(?:30|4[35-79]|6[6-9]|77)|8(?:00|1[45]|4[89]|88)|9(?:14|4[035-9]))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10",
@@ -11563,15 +11585,7 @@ internal val generatedMetadata by lazy {
                                 localOnly = "7"
                             ),
                         ),
-                        pager = MetadataPhoneNumberDesc(
-                            exampleNumber = "3458491234",
-                            nationalNumberPattern = "345849\\d{4}",
-                            possibleNumberPattern = null,
-                            possibleLengths = MetadataPossibleLengths(
-                                national = "10",
-                                localOnly = null
-                            ),
-                        ),
+                        pager = null,
                         personalNumber = MetadataPhoneNumberDesc(
                             exampleNumber = "5002345678",
                             nationalNumberPattern = "52(?:3(?:[2-46-9][02-9]\\d|5(?:[02-46-9]\\d|5[0-46-9]))|4(?:[2-478][02-9]\\d|5(?:[034]\\d|2[024-9]|5[0-46-9])|6(?:0[1-9]|[2-9]\\d)|9(?:[05-9]\\d|2[0-5]|49)))\\d{4}|52[34][2-9]1[02-9]\\d{4}|5(?:00|2[125-9]|33|44|66|77|88)[2-9]\\d{6}",
@@ -11710,10 +11724,10 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "2023123456",
-                            nationalNumberPattern = "208[78]\\d{6}|(?:20[23579]|30[24])\\d{7}",
+                            nationalNumberPattern = "(?:20(?:[23579]\\d|8[78])|30[24]\\d)\\d{6}|30\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
-                                national = "10",
+                                national = "9,10",
                                 localOnly = null
                             ),
                         ),
@@ -11724,15 +11738,7 @@ internal val generatedMetadata by lazy {
                         tollFree = null,
                         voicemail = null,
                         voip = null,
-                        uan = MetadataPhoneNumberDesc(
-                            exampleNumber = "301234567",
-                            nationalNumberPattern = "30[0135-9]\\d{6}",
-                            possibleNumberPattern = null,
-                            possibleLengths = MetadataPossibleLengths(
-                                national = "9",
-                                localOnly = null
-                            ),
-                        ),
+                        uan = null,
                         availableFormats = MetadataAvailableFormat(
                             numberFormat = listOf(
                                 MetadataPhoneNumberFormat(
@@ -11747,7 +11753,7 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d{2})(\\d{2})(\\d{2})(\\d{3})",
                                     format = "\$1 \$2 \$3 \$4",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("30[0135-9]"),
+                                    leadingDigitsPatterns = listOf("3"),
                                     nationalPrefixFormattingRule = "\$NP\$FG",
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -11776,7 +11782,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "1123456",
-                            nationalNumberPattern = "7(?:62|8[0-7]|9[04-9])\\d{4}|(?:[14-69]\\d|2(?:[14-69]\\d|[78][1-9])|7[2-57]|8[02-9])\\d{5}",
+                            nationalNumberPattern = "7(?:62|8[0-6]|9[04-9])\\d{4}|(?:[14-69]\\d|2(?:[14-69]\\d|[78][1-9])|7[2-57]|8[02-9])\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "7,8",
@@ -11791,7 +11797,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "71123456",
-                            nationalNumberPattern = "793(?:[01]\\d|2[0-4])\\d{3}|(?:(?:3|81)\\d|7(?:[01]\\d|6[013-9]|8[89]|9[12]))\\d{5}",
+                            nationalNumberPattern = "787\\d{4}|(?:(?:3|81)\\d|7(?:[01]\\d|6[013-9]|8[89]|9[1-3]))\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "7,8",
@@ -11926,7 +11932,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "2345678",
-                            nationalNumberPattern = "(?:2(?:01|1[27]|2[02]|3\\d|6[02-578]|96)|3(?:[24]0|33|7[0135-7]|8[048]|9[0269]))\\d{4}",
+                            nationalNumberPattern = "(?:2(?:01|1[27]|2[024]|3\\d|6[02-578]|96)|3(?:[24]0|33|7[0135-7]|8[048]|9[0269]))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "7",
@@ -11941,7 +11947,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "660234567",
-                            nationalNumberPattern = "(?:6(?:(?:4[5-9]|5[0-469])\\d|6(?:[024-6]\\d|[17]0|3[7-9]))\\d|7(?:[37-9]\\d|42|56))\\d{4}",
+                            nationalNumberPattern = "(?:6(?:(?:4[5-9]|5[0-46-9])\\d|6(?:[024-6]\\d|[17]0|3[7-9]))\\d|7(?:[37-9]\\d|42|56))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "7,9",
@@ -12121,13 +12127,13 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "(?:[245]\\d|33|77|88)\\d{7}|(?:2\\d|[4-6])\\d{6}",
+                            nationalNumberPattern = "(?:[2457]\\d|33|88)\\d{7}|(?:2\\d|[4-6])\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "770123456",
-                            nationalNumberPattern = "(?:(?:(?:22|33)0|555|(?:77|88)\\d)\\d|4(?:240|[67]))\\d{5}|[56]\\d{6}",
+                            nationalNumberPattern = "(?:(?:(?:22|33)0|555|7(?:6[01]|7\\d)|88\\d)\\d|4(?:240|[67]))\\d{5}|[56]\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "7,9",
@@ -12555,7 +12561,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "21234567",
-                            nationalNumberPattern = "23(?:23[0-57-9]|33[0238])\\d{3}|2(?:[0-24-9]\\d\\d|3(?:0[07]|[14-9]\\d|2[024-9]|3[0-24-9]))\\d{4}",
+                            nationalNumberPattern = "2333[0-8]\\d{3}|2(?:[0-24-9]\\d\\d|3(?:0[07]|[14-9]\\d|2[02-9]|3[0-24-9]))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -12693,7 +12699,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "650123456",
-                            nationalNumberPattern = "(?:6(?:[0-79]\\d|8[0-247-9])|7(?:[0167]\\d|2[0-4]|5[01]|8[0-3]))\\d{6}",
+                            nationalNumberPattern = "(?:6(?:[0-79]\\d|8[0-247-9])|7(?:[0167]\\d|2[0-467]|5[0-3]|8[0-7]))\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -13083,13 +13089,13 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "590\\d{6}|(?:69|80|9\\d)\\d{7}",
+                            nationalNumberPattern = "(?:590\\d|7090)\\d{5}|(?:69|80|9\\d)\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "690001234",
-                            nationalNumberPattern = "69(?:0\\d\\d|1(?:2[2-9]|3[0-5])|4(?:0[89]|1[2-6]|9\\d)|6(?:1[016-9]|5[0-4]|[67]\\d))\\d{4}",
+                            nationalNumberPattern = "(?:69(?:0\\d\\d|1(?:2[2-9]|3[0-5])|4(?:0[89]|1[2-6]|9\\d)|6(?:1[016-9]|5[0-4]|[67]\\d))|7090[0-4])\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -13112,7 +13118,7 @@ internal val generatedMetadata by lazy {
                         voicemail = null,
                         voip = MetadataPhoneNumberDesc(
                             exampleNumber = "976012345",
-                            nationalNumberPattern = "9(?:(?:39[5-7]|76[018])\\d|475[0-5])\\d{4}",
+                            nationalNumberPattern = "9(?:(?:39[5-7]|76[018])\\d|475[0-6])\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -13135,7 +13141,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "202123456",
-                            nationalNumberPattern = "2072[29]\\d{4}|20(?:2\\d|4[47]|5[3467]|6[279]|7[35]|8[268]|9[245])\\d{5}",
+                            nationalNumberPattern = "2072[29]\\d{4}|20(?:2\\d|4[47]|5[3467]|6[279]|7[356]|8[268]|9[2457])\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -13280,7 +13286,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "72345678",
-                            nationalNumberPattern = "7(?:3555|(?:474|9[019]7)7)\\d{3}|7(?:[0-25-8]\\d\\d|3(?:[1-48]\\d|6[01]|7[01578])|4(?:2\\d|60|7[01578])|9(?:[2-4]\\d|5[01]|7[015]))\\d{4}",
+                            nationalNumberPattern = "7(?:3555|(?:474|9[019]7)7)\\d{3}|7(?:[0-25-8]\\d\\d|3(?:[1-478]\\d|6[01])|4(?:2\\d|60|7[01578])|9(?:[2-4]\\d|5[01]|7[015]))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -13362,7 +13368,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "20212345",
-                            nationalNumberPattern = "2(?:07[0-8]|12[67])\\d{4}|(?:2(?:02|1[4-689])|4(?:0[0-4]|4[1-39]))\\d{5}",
+                            nationalNumberPattern = "2(?:07[0-8]|12[67])\\d{4}|(?:2(?:02|1[4-689])|4(?:0[0-4]|4[1-59]))\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -13377,7 +13383,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "65012345",
-                            nationalNumberPattern = "2(?:0(?:01|79)|17\\d)\\d{4}|(?:5[01]|[679]\\d|8[2-49])\\d{6}",
+                            nationalNumberPattern = "2(?:0(?:01|79)|17\\d)\\d{4}|(?:5[0-3]|[679]\\d|8[2-59])\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -13438,7 +13444,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "1234567",
-                            nationalNumberPattern = "(?:1(?:(?:2\\d|3[56]|[89][0-6])\\d|4(?:2[29]|62|7[0-2]|83)|6)|2(?:2(?:00|8[34])|4(?:0\\d|[26]2|7[0-2]|83)|51\\d\\d)|4(?:2(?:2\\d\\d|48[013])|3(?:20\\d|4(?:70|83)|56)|420\\d|5470)|6(?:0(?:[23]|88\\d)|(?:124|[56]2\\d)\\d|2472|3(?:20\\d|470)|4(?:2[04]\\d|472)|7(?:(?:3\\d|8[01459])\\d|4[67]0)))\\d{4}|5(?:2(?:2\\d{5,6}|47[02]\\d{4})|(?:3472|4(?:2(?:1|86)|470)|522\\d|6(?:20\\d|483)|7(?:20\\d|48[01])|8(?:20\\d|47[02])|9(?:20\\d|470))\\d{4})|7(?:(?:0470|4(?:25\\d|470)|5(?:202|470|96\\d))\\d{4}|1(?:20\\d{4,5}|4(?:70|83)\\d{4}))|8(?:1(?:2\\d{5,6}|4(?:10|7[01]\\d)\\d{3})|2(?:2\\d{5,6}|(?:320|490\\d)\\d{3})|(?:3(?:2\\d\\d|470)|4[24-7]|5(?:(?:2\\d|51)\\d|4(?:[1-35-9]\\d|4[0-57-9]))|6[23])\\d{4})|(?:1[2-6]\\d|4(?:2[24-8]|3[2-7]|[46][2-6]|5[3-5])|5(?:[27][2-8]|3[2-68]|4[24-8]|5[23]|6[2-4]|8[24-7]|9[2-7])|6(?:[19]20|42[03-6]|(?:52|7[45])\\d)|7(?:[04][24-8]|[15][2-7]|22|3[2-4])|8(?:1[2-689]|2[2-8]|[35]2\\d))\\d{4}|25\\d{5,6}|(?:2[2-9]|6(?:1[2356]|[24][2-6]|3[24-6]|5[2-4]|6[2-8]|7[235-7]|8[245]|9[24])|8(?:3[24]|5[245]))\\d{4}",
+                            nationalNumberPattern = "(?:1(?:(?:12|[28]\\d|3[56]|7[3-6]|9[0-6])\\d|4(?:2[29]|7[0-2]|83)|6)|2(?:2(?:00|8[34])|4(?:0\\d|22|7[0-2]|83)|51\\d\\d)|4(?:2(?:2\\d\\d|48[013])|3(?:20\\d|4(?:70|83)|56)|420\\d|5(?:2\\d|470))|6(?:0(?:[23]|88\\d)|(?:124|[56]2\\d)\\d|2472|3(?:20\\d|470)|4(?:2[04]\\d|472)|7(?:3\\d\\d|4[67]0|8(?:[01459]\\d|8))))\\d{4}|5(?:2(?:2\\d{5,6}|47[02]\\d{4})|(?:3472|4(?:2(?:1|86)|470)|522\\d|6(?:20\\d|483)|7(?:20\\d|48[01])|8(?:20\\d|47[02])|9(?:20\\d|470))\\d{4})|7(?:(?:0470|4(?:25\\d|470)|5(?:202|470|96\\d))\\d{4}|1(?:20\\d{4,5}|4(?:70|83)\\d{4}))|8(?:1(?:2\\d{5,6}|4(?:10|7[01]\\d)\\d{3})|2(?:2\\d{5,6}|(?:320|490\\d)\\d{3})|(?:3(?:2\\d\\d|470)|4[24-7]|5(?:(?:2\\d|51)\\d|4(?:[1-35-9]\\d|4[0-57-9]))|6[23])\\d{4})|(?:1[2-6]\\d|4(?:2[24-8]|3[2-7]|[46][2-6]|5[3-5])|5(?:[27][2-8]|3[2-68]|4[24-8]|5[23]|6[2-4]|8[24-7]|9[2-7])|6(?:[19]20|42[03-6]|(?:52|7[45])\\d)|7(?:[04][24-8]|[15][2-7]|22|3[2-4])|8(?:1[2-689]|2[2-8]|(?:[35]2|64)\\d))\\d{4}|25\\d{5,6}|(?:2[2-9]|6(?:1[2356]|[24][2-6]|3[24-6]|5[2-4]|6[2-8]|7[235-7]|8[245]|9[24])|8(?:3[24]|5[245]))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "[6-9]",
@@ -13476,7 +13482,7 @@ internal val generatedMetadata by lazy {
                         voicemail = null,
                         voip = MetadataPhoneNumberDesc(
                             exampleNumber = "13331234",
-                            nationalNumberPattern = "1333\\d{4}|[12]468\\d{4}",
+                            nationalNumberPattern = "1333\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -13498,7 +13504,7 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d{2})(\\d{2})(\\d{3})",
                                     format = "\$1 \$2 \$3",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("[45]|6(?:0[23]|[1-689]|7[235-7])|7(?:[0-4]|5[2-7])|8[1-6]"),
+                                    leadingDigitsPatterns = listOf("4(?:[2-46]|5[3-5])|5|6(?:[1-689]|7[235-7])|7(?:[0-4]|5[2-7])|8[1-5]|(?:60|86)[23]"),
                                     nationalPrefixFormattingRule = "\$NP\$FG",
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -13506,7 +13512,7 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d)(\\d{3})(\\d{3,4})",
                                     format = "\$1 \$2 \$3",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("[12]"),
+                                    leadingDigitsPatterns = listOf("[12]|452|678|86", "[12]|452|6788|86"),
                                     nationalPrefixFormattingRule = "\$NP\$FG",
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -13590,7 +13596,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "88123456",
-                            nationalNumberPattern = "(?:83[01]|92[039])\\d{5}|(?:5[05]|6[069]|8[015689]|9[013-9])\\d{6}",
+                            nationalNumberPattern = "(?:83[01]|92[039])\\d{5}|(?:5[05]|6[069]|72|8[015689]|9[013-9])\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -13605,7 +13611,7 @@ internal val generatedMetadata by lazy {
                         voicemail = null,
                         voip = MetadataPhoneNumberDesc(
                             exampleNumber = "75123456",
-                            nationalNumberPattern = "712[0-79]\\d{4}|7(?:1[013-9]|[25-9]\\d)\\d{5}",
+                            nationalNumberPattern = "712[0-79]\\d{4}|7(?:1[013-9]|[5-9]\\d)\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -13817,7 +13823,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "596301234",
-                            nationalNumberPattern = "596(?:[03-7]\\d|1[05]|2[7-9]|8[0-39]|9[04-9])\\d{4}",
+                            nationalNumberPattern = "(?:596(?:[03-7]\\d|1[05]|2[7-9]|8[0-39]|9[04-9])|80[6-9]\\d\\d|9(?:477[6-9]|767[4589]))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -13826,13 +13832,13 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "596\\d{6}|(?:69|80|9\\d)\\d{7}",
+                            nationalNumberPattern = "(?:596\\d|7091)\\d{5}|(?:69|[89]\\d)\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "696201234",
-                            nationalNumberPattern = "69(?:6(?:[0-46-9]\\d|5[0-6])|727)\\d{4}",
+                            nationalNumberPattern = "(?:69[67]\\d\\d|7091[0-3])\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -13841,7 +13847,15 @@ internal val generatedMetadata by lazy {
                         ),
                         pager = null,
                         personalNumber = null,
-                        premiumRate = null,
+                        premiumRate = MetadataPhoneNumberDesc(
+                            exampleNumber = "810123456",
+                            nationalNumberPattern = "8[129]\\d{7}",
+                            possibleNumberPattern = null,
+                            possibleLengths = MetadataPossibleLengths(
+                                national = "9",
+                                localOnly = null
+                            ),
+                        ),
                         sharedCost = null,
                         tollFree = MetadataPhoneNumberDesc(
                             exampleNumber = "800012345",
@@ -13869,7 +13883,7 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d{3})(\\d{2})(\\d{2})(\\d{2})",
                                     format = "\$1 \$2 \$3 \$4",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("[569]"),
+                                    leadingDigitsPatterns = listOf("[5-79]|8(?:0[6-9]|[36])"),
                                     nationalPrefixFormattingRule = "\$NP\$FG",
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -14129,7 +14143,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "54480123",
-                            nationalNumberPattern = "(?:2(?:[0346-8]\\d|1[0-7])|4(?:[013568]\\d|2[4-8]|71)|54(?:[3-5]\\d|71)|6\\d\\d|8(?:14|3[129]))\\d{4}",
+                            nationalNumberPattern = "(?:2(?:[0346-8]\\d|1[0-8])|4(?:[013568]\\d|2[4-8]|71|90)|54(?:[3-5]\\d|71)|6\\d\\d|8(?:14|3[129]))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "7,8",
@@ -14144,14 +14158,22 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "52512345",
-                            nationalNumberPattern = "5(?:4(?:2[1-389]|7[1-9])|87[15-8])\\d{4}|(?:5(?:2[5-9]|4[3-689]|[57]\\d|8[0-689]|9[0-8])|7(?:0[0-4]|3[013]))\\d{5}",
+                            nationalNumberPattern = "5(?:4(?:2[1-389]|7[1-9])|87[15-8])\\d{4}|(?:5(?:2[5-9]|4[3-689]|[57]\\d|8[0-689]|9[0-8])|7(?:0[0-6]|3[013]))\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
                                 localOnly = null
                             ),
                         ),
-                        pager = null,
+                        pager = MetadataPhoneNumberDesc(
+                            exampleNumber = "2190123",
+                            nationalNumberPattern = "219\\d{4}",
+                            possibleNumberPattern = null,
+                            possibleLengths = MetadataPossibleLengths(
+                                national = "7",
+                                localOnly = null
+                            ),
+                        ),
                         personalNumber = null,
                         premiumRate = MetadataPhoneNumberDesc(
                             exampleNumber = "3012345",
@@ -14226,7 +14248,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "6701234",
-                            nationalNumberPattern = "(?:3(?:0[0-3]|3[0-59])|6(?:[58][024689]|6[024-68]|7[02468]))\\d{4}",
+                            nationalNumberPattern = "(?:3(?:0[0-4]|3[0-59])|6(?:[58][024689]|6[024-68]|7[02468]))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "7",
@@ -14388,7 +14410,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "2001234567",
-                            nationalNumberPattern = "657[12]\\d{6}|(?:2(?:0[01]|2\\d|3[1-35-8]|4[13-9]|7[1-689]|8[1-578]|9[467])|3(?:1[1-79]|[2458][1-9]|3\\d|7[1-8]|9[1-5])|4(?:1[1-57-9]|[267][1-9]|3[1-8]|[45]\\d|8[1-35-9]|9[2-689])|5(?:[56]\\d|88|9[1-79])|6(?:1[2-68]|[2-4][1-9]|5[1-3689]|6[0-57-9]|7[1-7]|8[67]|9[4-8])|7(?:[1346][1-9]|[27]\\d|5[13-9]|8[1-69]|9[17])|8(?:1\\d|2[13-689]|3[1-6]|4[124-6]|6[1246-9]|7[0-378]|9[12479])|9(?:1[346-9]|2[1-4]|3[2-46-8]|5[1348]|[69]\\d|7[12]|8[1-8]))\\d{7}",
+                            nationalNumberPattern = "(?:2(?:0[01]|2\\d|3[1-35-8]|4[13-9]|7[1-689]|8[1-578]|9[467])|3(?:1[1-79]|[2458][1-9]|3\\d|7[1-8]|9[1-5])|4(?:1[1-57-9]|[267][1-9]|3[1-8]|[45]\\d|8[1-35-9]|9[2-689])|5(?:[56]\\d|88|9[1-79])|6(?:1[2-68]|[2-4][1-9]|5[1-36-9]|6[0-57-9]|7[1-7]|8[67]|9[4-8])|7(?:[1346][1-9]|[27]\\d|5[13-9]|8[1-69]|9[17])|8(?:1\\d|2[13-689]|3[1-6]|4[124-6]|6[1246-9]|7[0-378]|9[12479])|9(?:1[346-9]|2[1-4]|3[2-46-8]|5[1348]|[69]\\d|7[12]|8[1-8]))\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10",
@@ -14403,7 +14425,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "2221234567",
-                            nationalNumberPattern = "657[12]\\d{6}|(?:2(?:2\\d|3[1-35-8]|4[13-9]|7[1-689]|8[1-578]|9[467])|3(?:1[1-79]|[2458][1-9]|3\\d|7[1-8]|9[1-5])|4(?:1[1-57-9]|[267][1-9]|3[1-8]|[45]\\d|8[1-35-9]|9[2-689])|5(?:[56]\\d|88|9[1-79])|6(?:1[2-68]|[2-4][1-9]|5[1-3689]|6[0-57-9]|7[1-7]|8[67]|9[4-8])|7(?:[1346][1-9]|[27]\\d|5[13-9]|8[1-69]|9[17])|8(?:1\\d|2[13-689]|3[1-6]|4[124-6]|6[1246-9]|7[0-378]|9[12479])|9(?:1[346-9]|2[1-4]|3[2-46-8]|5[1348]|[69]\\d|7[12]|8[1-8]))\\d{7}",
+                            nationalNumberPattern = "(?:2(?:2\\d|3[1-35-8]|4[13-9]|7[1-689]|8[1-578]|9[467])|3(?:1[1-79]|[2458][1-9]|3\\d|7[1-8]|9[1-5])|4(?:1[1-57-9]|[267][1-9]|3[1-8]|[45]\\d|8[1-35-9]|9[2-689])|5(?:[56]\\d|88|9[1-79])|6(?:1[2-68]|[2-4][1-9]|5[1-36-9]|6[0-57-9]|7[1-7]|8[67]|9[4-8])|7(?:[1346][1-9]|[27]\\d|5[13-9]|8[1-69]|9[17])|8(?:1\\d|2[13-689]|3[1-6]|4[124-6]|6[1246-9]|7[0-378]|9[12479])|9(?:1[346-9]|2[1-4]|3[2-46-8]|5[1348]|[69]\\d|7[12]|8[1-8]))\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10",
@@ -14493,7 +14515,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "323856789",
-                            nationalNumberPattern = "4270\\d{4}|(?:3(?:2[0-36-9]|3[0-368]|4[0-278]|5[0-24-8]|6[0-467]|7[1246-9]|8\\d|9[0-57])\\d|4(?:2[0-689]|[3-79]\\d|8[1-35689])|5(?:2[0-589]|[3468]\\d|5[0-489]|7[1-9]|9[23])|6(?:2[2-9]|3[1357-9]|[46]\\d|5[0-6]|7[0-35-9]|85|9[015-8])|7(?:[2579]\\d|3[03-68]|4[0-8]|6[5-9]|8[0-35-9])|8(?:[24][2-8]|3[2-5]|5[2-7]|6[2-589]|7[2-578]|[89][2-9])|9(?:0[57]|13|[25-7]\\d|[3489][0-8]))\\d{5}",
+                            nationalNumberPattern = "427[01]\\d{4}|(?:3(?:2[0-36-9]|3[0-368]|4[0-278]|5[0-24-8]|6[0-467]|7[1246-9]|8\\d|9[0-57])\\d|4(?:2[0-689]|[3-79]\\d|8[1-35689])|5(?:2[0-589]|[3468]\\d|5[0-489]|7[1-9]|9[23])|6(?:2[2-9]|3[1357-9]|[46]\\d|5[0-6]|7[0-35-9]|85|9[015-8])|7(?:[2579]\\d|3[03-68]|4[0-8]|6[5-9]|8[0-35-9])|8(?:[24][2-8]|3[2-5]|5[2-7]|6[2-589]|7[2-578]|[89][2-9])|9(?:0[57]|13|[25-7]\\d|[3489][0-8]))\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8,9",
@@ -14810,7 +14832,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "751234",
-                            nationalNumberPattern = "(?:5[0-4]|[79]\\d|8[0-79])\\d{4}",
+                            nationalNumberPattern = "(?:[579]\\d|8[0-79])\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "6",
@@ -15022,16 +15044,16 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "2033123456",
-                            nationalNumberPattern = "(?:20(?:[1259]\\d|3[013-9]|4[1-8]|6[024-689]|7[1-79]|8[2-9])|38)\\d{6}",
+                            nationalNumberPattern = "20(?:[1259]\\d|3[013-9]|4[1-8]|6[024-689]|7[1-79]|8[2-9])\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
-                                national = "8,10",
+                                national = "10",
                                 localOnly = "6,7"
                             ),
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "38\\d{6}|[78]\\d{9,13}|(?:20|9\\d)\\d{8}",
+                            nationalNumberPattern = "(?:20|9\\d)\\d{8}|[78]\\d{9,13}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
@@ -15071,14 +15093,6 @@ internal val generatedMetadata by lazy {
                         availableFormats = MetadataAvailableFormat(
                             numberFormat = listOf(
                                 MetadataPhoneNumberFormat(
-                                    pattern = "(\\d{2})(\\d{3})(\\d{2,3})",
-                                    format = "\$1 \$2 \$3",
-                                    intlFormat = null,
-                                    leadingDigitsPatterns = listOf("3"),
-                                    nationalPrefixFormattingRule = "\$NP\$FG",
-                                    nationalPrefixOptionalWhenFormatting = null,
-                                    domesticCarrierCodeFormattingRule = null,
-                                ), MetadataPhoneNumberFormat(
                                     pattern = "(\\d{3})(\\d{3})(\\d{3,4})",
                                     format = "\$1 \$2 \$3",
                                     intlFormat = null,
@@ -15440,7 +15454,7 @@ internal val generatedMetadata by lazy {
                         ),
                         uan = MetadataPhoneNumberDesc(
                             exampleNumber = "02000",
-                            nationalNumberPattern = "(?:0[2-9]|81(?:0(?:0[7-9]|1\\d)|5\\d\\d))\\d{3}",
+                            nationalNumberPattern = "(?:0[235-9]|81(?:0(?:0[7-9]|1\\d)|5\\d\\d))\\d{3}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "5,8",
@@ -15580,13 +15594,13 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "(?:444|(?:55|8\\d)\\d|666)\\d{4}",
+                            nationalNumberPattern = "(?:222|444|(?:55|8\\d)\\d|666|777|999)\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "5551234",
-                            nationalNumberPattern = "(?:55[3-9]|666|8\\d\\d)\\d{4}",
+                            nationalNumberPattern = "(?:222|55[3-9]|666|777|8\\d\\d|999)\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "7",
@@ -15607,7 +15621,7 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d{3})(\\d{4})",
                                     format = "\$1 \$2",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("[4-68]"),
+                                    leadingDigitsPatterns = listOf("[24-9]"),
                                     nationalPrefixFormattingRule = null,
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -15903,7 +15917,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "2001234",
-                            nationalNumberPattern = "(?:1(?:0\\d|1[479]|2[37]|3[0137]|4[17]|5[05]|6[058]|7[0167]|8[2358]|9[1389])|2(?:[0235-79]\\d|1[0-7]|4[013-9]|8[02-9])|3(?:[089]\\d|1[0-7]|2[0-5]|33|4[0-79]|5[0-35]|6[068]|7[0-8])|4(?:00|3[0-579]|4\\d|7[0-57-9])|5(?:[01]\\d|2[0-7]|[56]0|79)|7(?:0[09]|2[0-26-8]|3[03]|4[04]|5[05-9]|6[0156]|7[0-24-9]|8[5-9]|90)|8(?:09|2[89]|3\\d|4[0-24-689]|5[014]|8[02])|9(?:0[5-9]|1[0135-8]|2[036-9]|3[35-79]|40|5[0457-9]|6[05-9]|7[04-9]|8[35-8]|9\\d))\\d{4}",
+                            nationalNumberPattern = "(?:1(?:0\\d|1[479]|2[37]|3[0137]|4[17]|5[05]|6[058]|7[0167]|8[2358]|9[1389])|2(?:[0235-79]\\d|1[0-7]|4[013-9]|8[02-9])|3(?:[07-9]\\d|1[0-7]|2[0-5]|33|4[0-79]|5[0-35]|6[068])|4(?:00|3[0-579]|4\\d|7[0-57-9])|5(?:[01]\\d|2[0-7]|[56]0|79)|7(?:0[09]|2[0-26-8]|3[03]|4[04]|5[05-9]|6[0156]|7[0-24-9]|8[5-9]|90)|8(?:09|2[89]|3\\d|4[0-24-689]|5[014]|8[02])|9(?:0[5-9]|1[0135-8]|2[036-9]|3[35-79]|40|5[0457-9]|6[05-9]|7[04-9]|8[35-8]|9\\d))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "7",
@@ -15992,7 +16006,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "11234567",
-                            nationalNumberPattern = "(?:(?:4[34]|5[14])[0-8]\\d|7(?:173|3[0-8]\\d)|8(?:10[05689]|6(?:0[06-9]|1[6-9]|29)|7(?:0[569]|[56]0)))\\d{4}|(?:1[0-8]|4[12]|5[236]|6[1-7]|7[246]|8[2-4])\\d{6}",
+                            nationalNumberPattern = "(?:(?:(?:4[34]|5[14])[0-8]|687)\\d|7(?:173|(?:3[0-8]|55)\\d)|8(?:10[05689]|6(?:0[06-9]|1[6-9]|29)|7(?:0[0569]|[56]0)))\\d{4}|(?:1[0-8]|4[12]|5[236]|6[1-7]|7[246]|8[2-4])\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -16581,7 +16595,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "512345678",
-                            nationalNumberPattern = "21(?:1[013-5]|2\\d)\\d{5}|(?:45|5[0137]|6[069]|7[2389]|88)\\d{7}",
+                            nationalNumberPattern = "2131[89]\\d{4}|21(?:1[013-5]|2\\d|3[2-9])\\d{5}|(?:45|5[0137]|6[069]|7[2389]|88)\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -16722,22 +16736,22 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "430123",
-                            nationalNumberPattern = "(?:4[1-35-7]|5[01])\\d{4}",
+                            nationalNumberPattern = "(?:4[1-35-9]|5[0-47-9]|80[6-9]\\d\\d)\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
-                                national = "6",
+                                national = "6,9",
                                 localOnly = null
                             ),
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "[45]\\d{5}|(?:708|80\\d)\\d{6}",
+                            nationalNumberPattern = "[45]\\d{5}|(?:708|8\\d\\d)\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "551234",
-                            nationalNumberPattern = "(?:4[02-4]|5[056]|708[45][0-5])\\d{4}",
+                            nationalNumberPattern = "(?:4[02-489]|5[02-9]|708(?:4[0-5]|5[0-6]))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "6,9",
@@ -16746,7 +16760,15 @@ internal val generatedMetadata by lazy {
                         ),
                         pager = null,
                         personalNumber = null,
-                        premiumRate = null,
+                        premiumRate = MetadataPhoneNumberDesc(
+                            exampleNumber = "810123456",
+                            nationalNumberPattern = "8[129]\\d{7}",
+                            possibleNumberPattern = null,
+                            possibleLengths = MetadataPossibleLengths(
+                                national = "9",
+                                localOnly = null
+                            ),
+                        ),
                         sharedCost = null,
                         tollFree = MetadataPhoneNumberDesc(
                             exampleNumber = "800012345",
@@ -17105,7 +17127,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "6201234",
-                            nationalNumberPattern = "(?:(?:46|83)[0-5]|6[2-4689]0)\\d{4}|(?:45|77|88)\\d{5}",
+                            nationalNumberPattern = "(?:(?:46|83)[0-5]|(?:6[2-4689]|78)0)\\d{4}|(?:45|77|88)\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "7",
@@ -17308,7 +17330,7 @@ internal val generatedMetadata by lazy {
                         ),
                         pager = MetadataPhoneNumberDesc(
                             exampleNumber = "2123456",
-                            nationalNumberPattern = "2[16]\\d{5}",
+                            nationalNumberPattern = "2[136]\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "7",
@@ -17336,7 +17358,7 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d{3})(\\d{4})",
                                     format = "\$1 \$2",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("2[16]|8"),
+                                    leadingDigitsPatterns = listOf("2[136]|8"),
                                     nationalPrefixFormattingRule = null,
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -17374,13 +17396,13 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "(?:26|[689]\\d)\\d{7}",
+                            nationalNumberPattern = "709\\d{6}|(?:26|[689]\\d)\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "692123456",
-                            nationalNumberPattern = "69(?:2\\d\\d|3(?:[06][0-6]|1[013]|2[0-2]|3[0-39]|4\\d|5[0-5]|7[0-37]|8[0-8]|9[0-479]))\\d{4}",
+                            nationalNumberPattern = "(?:69(?:2\\d\\d|3(?:[06][0-6]|1[0-3]|2[0-2]|3[0-39]|4\\d|5[0-5]|7[0-37]|8[0-8]|9[0-479]))|7092[0-3])\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -17419,7 +17441,7 @@ internal val generatedMetadata by lazy {
                         voicemail = null,
                         voip = MetadataPhoneNumberDesc(
                             exampleNumber = "939901234",
-                            nationalNumberPattern = "9(?:399[0-3]|479[0-5]|76(?:2[278]|3[0-37]))\\d{4}",
+                            nationalNumberPattern = "9(?:399[0-3]|479[0-6]|76(?:2[278]|3[0-37]))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -17433,7 +17455,7 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d{3})(\\d{2})(\\d{2})(\\d{2})",
                                     format = "\$1 \$2 \$3 \$4",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("[2689]"),
+                                    leadingDigitsPatterns = listOf("[26-9]"),
                                     nationalPrefixFormattingRule = "\$NP\$FG",
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -17883,7 +17905,7 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "92\\d{7}|(?:[15]|8\\d)\\d{8}",
+                            nationalNumberPattern = "(?:[15]\\d|800|92)\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
@@ -17927,15 +17949,7 @@ internal val generatedMetadata by lazy {
                         ),
                         voicemail = null,
                         voip = null,
-                        uan = MetadataPhoneNumberDesc(
-                            exampleNumber = "8110123456",
-                            nationalNumberPattern = "811\\d{7}",
-                            possibleNumberPattern = null,
-                            possibleLengths = MetadataPossibleLengths(
-                                national = "10",
-                                localOnly = null
-                            ),
-                        ),
+                        uan = null,
                         availableFormats = MetadataAvailableFormat(
                             numberFormat = listOf(
                                 MetadataPhoneNumberFormat(
@@ -17959,14 +17973,6 @@ internal val generatedMetadata by lazy {
                                     format = "\$1 \$2 \$3",
                                     intlFormat = null,
                                     leadingDigitsPatterns = listOf("5"),
-                                    nationalPrefixFormattingRule = "\$NP\$FG",
-                                    nationalPrefixOptionalWhenFormatting = null,
-                                    domesticCarrierCodeFormattingRule = null,
-                                ), MetadataPhoneNumberFormat(
-                                    pattern = "(\\d{3})(\\d{3})(\\d{3,4})",
-                                    format = "\$1 \$2 \$3",
-                                    intlFormat = null,
-                                    leadingDigitsPatterns = listOf("81"),
                                     nationalPrefixFormattingRule = "\$NP\$FG",
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -18422,7 +18428,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "81234567",
-                            nationalNumberPattern = "8(?:09[0-689]|95[0-2])\\d{4}|(?:8(?:0[1-8]|[1-8]\\d|9[0-4])|9[0-8]\\d)\\d{5}",
+                            nationalNumberPattern = "897[01]\\d{4}|(?:8(?:0[1-9]|[1-8]\\d|9[0-6])|9[0-8]\\d)\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -18765,7 +18771,7 @@ internal val generatedMetadata by lazy {
                         ),
                         uan = MetadataPhoneNumberDesc(
                             exampleNumber = "02000",
-                            nationalNumberPattern = "(?:0[2-9]|81(?:0(?:0[7-9]|1\\d)|5\\d\\d))\\d{3}",
+                            nationalNumberPattern = "(?:0[235-9]|81(?:0(?:0[7-9]|1\\d)|5\\d\\d))\\d{3}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "5,8",
@@ -18947,7 +18953,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "25123456",
-                            nationalNumberPattern = "(?:25|3[0-5]|66|7[2-9]|8[08]|9[09])\\d{6}",
+                            nationalNumberPattern = "(?:25|3[0-5]|66|7[1-9]|8[08]|9[09])\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -19093,7 +19099,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "701234567",
-                            nationalNumberPattern = "7(?:(?:[06-8]\\d|21|90)\\d|5(?:0[01]|[19]0|2[25]|[38]3|[4-7]\\d))\\d{5}",
+                            nationalNumberPattern = "7(?:(?:[06-8]\\d|[19]0|21)\\d|5(?:0[01]|[19]0|2[25]|3[356]|[4-7]\\d|8[35]))\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -19190,7 +19196,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "71123456",
-                            nationalNumberPattern = "(?:(?:15|(?:3[59]|4[89]|6\\d|7[79]|8[08])\\d|9(?:0\\d|[2-9]))\\d|2(?:4\\d|8))\\d{5}|(?:[67]\\d\\d|904)\\d{5}",
+                            nationalNumberPattern = "(?:(?:15|(?:3[59]|4[89]|6\\d|7[679]|8[08])\\d|9(?:0\\d|[2-9]))\\d|2(?:4\\d|8))\\d{5}|(?:[67]\\d\\d|904)\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "[7-9]",
@@ -19251,7 +19257,7 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d{2})(\\d{5,7})",
                                     format = "\$1 \$2",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("1|28|6[0-35-9]|77|9[2-9]"),
+                                    leadingDigitsPatterns = listOf("1|28|6[0-35-9]|7[67]|9[2-9]"),
                                     nationalPrefixFormattingRule = null,
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -19281,13 +19287,13 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "(?:[2-5]|68|[78]\\d)\\d{5}",
+                            nationalNumberPattern = "(?:[2-5]|68|[78]\\d|90)\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "7412345",
-                            nationalNumberPattern = "(?:7[124-7]|8[124-9])\\d{5}",
+                            nationalNumberPattern = "(?:7[124-7]|8[1-9])\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "7",
@@ -19296,9 +19302,25 @@ internal val generatedMetadata by lazy {
                         ),
                         pager = null,
                         personalNumber = null,
-                        premiumRate = null,
+                        premiumRate = MetadataPhoneNumberDesc(
+                            exampleNumber = "9012345",
+                            nationalNumberPattern = "90\\d{5}",
+                            possibleNumberPattern = null,
+                            possibleLengths = MetadataPossibleLengths(
+                                national = "7",
+                                localOnly = null
+                            ),
+                        ),
                         sharedCost = null,
-                        tollFree = null,
+                        tollFree = MetadataPhoneNumberDesc(
+                            exampleNumber = "8012345",
+                            nationalNumberPattern = "80\\d{5}",
+                            possibleNumberPattern = null,
+                            possibleLengths = MetadataPossibleLengths(
+                                national = "7",
+                                localOnly = null
+                            ),
+                        ),
                         voicemail = null,
                         voip = MetadataPhoneNumberDesc(
                             exampleNumber = "561234",
@@ -19332,7 +19354,7 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d{3})(\\d{4})",
                                     format = "\$1-\$2",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("[6-8]"),
+                                    leadingDigitsPatterns = listOf("[6-9]"),
                                     nationalPrefixFormattingRule = null,
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -19640,7 +19662,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "944567890",
-                            nationalNumberPattern = "9[1-689]\\d{7}",
+                            nationalNumberPattern = "9[1-9]\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -19965,7 +19987,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "90112345",
-                            nationalNumberPattern = "(?:7[019]|9[0-36-9])\\d{6}",
+                            nationalNumberPattern = "(?:7[0-29]|9[0-36-9])\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "8",
@@ -20119,7 +20141,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "917123456",
-                            nationalNumberPattern = "(?:33[03-9]|4(?:1[18]|4[02-479])|81[1-9])\\d{6}|(?:[09]\\d|1[017]|2[02]|[34]0|5[05]|7[01578]|8[078])\\d{7}",
+                            nationalNumberPattern = "(?:33[03-9]|4(?:1[18]|4[02-479])|81[1-9])\\d{6}|(?:[09]\\d|1[0-27-9]|2[0-27]|[34]0|5[05]|7[01578]|8[078])\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -21113,7 +21135,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "501234567",
-                            nationalNumberPattern = "(?:39|50|6[36-8]|7[1-357]|9[1-9])\\d{7}",
+                            nationalNumberPattern = "790\\d{6}|(?:39|50|6[36-8]|7[1-357]|9[1-9])\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -21224,7 +21246,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "712345678",
-                            nationalNumberPattern = "72(?:[48]0|6[01])\\d{5}|7(?:[015-8]\\d|20|36|4[0-5]|9[89])\\d{6}",
+                            nationalNumberPattern = "72[48]0\\d{5}|7(?:[015-8]\\d|2[067]|36|4[0-8]|9[089])\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -21298,7 +21320,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "2015550123",
-                            nationalNumberPattern = "(?:3052(?:0[0-8]|[1-9]\\d)|5056(?:[0-35-9]\\d|4[468])|7302[0-4]\\d)\\d{4}|(?:305[3-9]|472[24]|505[2-57-9]|7306|983[2-47-9])\\d{6}|(?:2(?:0[1-35-9]|1[02-9]|2[03-57-9]|3[1459]|4[08]|5[1-46]|6[0279]|7[0269]|8[13])|3(?:0[1-47-9]|1[02-9]|2[013569]|3[0-24679]|4[167]|5[0-2]|6[01349]|8[056])|4(?:0[124-9]|1[02-579]|2[3-5]|3[0245]|4[023578]|58|6[349]|7[0589]|8[04])|5(?:0[1-47-9]|1[0235-8]|20|3[0149]|4[01]|5[179]|6[1-47]|7[0-5]|8[0256])|6(?:0[1-35-9]|1[024-9]|2[03689]|3[016]|4[0156]|5[01679]|6[0-279]|78|8[0-29])|7(?:0[1-46-8]|1[2-9]|2[04-8]|3[1247]|4[037]|5[47]|6[02359]|7[0-59]|8[156])|8(?:0[1-68]|1[02-8]|2[068]|3[0-2589]|4[03578]|5[046-9]|6[02-5]|7[028])|9(?:0[1346-9]|1[02-9]|2[0589]|3[0146-8]|4[01357-9]|5[12469]|7[0-389]|8[04-69]))[2-9]\\d{6}",
+                            nationalNumberPattern = "(?:3052(?:0[0-8]|[1-9]\\d)|5056(?:[0-35-9]\\d|4[0-68]))\\d{4}|(?:2742|305[3-9]|472[247-9]|505[2-57-9]|983[2-47-9])\\d{6}|(?:2(?:0[1-35-9]|1[02-9]|2[03-57-9]|3[1459]|4[08]|5[1-46]|6[0279]|7[0269]|8[13])|3(?:0[1-47-9]|1[02-9]|2[0135-79]|3[0-24679]|4[167]|5[0-2]|6[01349]|8[056])|4(?:0[124-9]|1[02-579]|2[3-5]|3[0245]|4[023578]|58|6[349]|7[0589]|8[04])|5(?:0[1-47-9]|1[0235-8]|20|3[0149]|4[01]|5[179]|6[1-47]|7[0-5]|8[0256])|6(?:0[1-35-9]|1[024-9]|2[03689]|3[016]|4[0156]|5[01679]|6[0-279]|78|8[0-29])|7(?:0[1-46-8]|1[2-9]|2[04-8]|3[0-247]|4[037]|5[47]|6[02359]|7[0-59]|8[156])|8(?:0[1-68]|1[02-8]|2[0168]|3[0-2589]|4[03578]|5[046-9]|6[02-5]|7[028])|9(?:0[1346-9]|1[02-9]|2[0589]|3[0146-8]|4[01357-9]|5[12469]|7[0-389]|8[04-69]))[2-9]\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10",
@@ -21313,7 +21335,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "2015550123",
-                            nationalNumberPattern = "(?:3052(?:0[0-8]|[1-9]\\d)|5056(?:[0-35-9]\\d|4[468])|7302[0-4]\\d)\\d{4}|(?:305[3-9]|472[24]|505[2-57-9]|7306|983[2-47-9])\\d{6}|(?:2(?:0[1-35-9]|1[02-9]|2[03-57-9]|3[1459]|4[08]|5[1-46]|6[0279]|7[0269]|8[13])|3(?:0[1-47-9]|1[02-9]|2[013569]|3[0-24679]|4[167]|5[0-2]|6[01349]|8[056])|4(?:0[124-9]|1[02-579]|2[3-5]|3[0245]|4[023578]|58|6[349]|7[0589]|8[04])|5(?:0[1-47-9]|1[0235-8]|20|3[0149]|4[01]|5[179]|6[1-47]|7[0-5]|8[0256])|6(?:0[1-35-9]|1[024-9]|2[03689]|3[016]|4[0156]|5[01679]|6[0-279]|78|8[0-29])|7(?:0[1-46-8]|1[2-9]|2[04-8]|3[1247]|4[037]|5[47]|6[02359]|7[0-59]|8[156])|8(?:0[1-68]|1[02-8]|2[068]|3[0-2589]|4[03578]|5[046-9]|6[02-5]|7[028])|9(?:0[1346-9]|1[02-9]|2[0589]|3[0146-8]|4[01357-9]|5[12469]|7[0-389]|8[04-69]))[2-9]\\d{6}",
+                            nationalNumberPattern = "(?:3052(?:0[0-8]|[1-9]\\d)|5056(?:[0-35-9]\\d|4[0-68]))\\d{4}|(?:2742|305[3-9]|472[247-9]|505[2-57-9]|983[2-47-9])\\d{6}|(?:2(?:0[1-35-9]|1[02-9]|2[03-57-9]|3[1459]|4[08]|5[1-46]|6[0279]|7[0269]|8[13])|3(?:0[1-47-9]|1[02-9]|2[0135-79]|3[0-24679]|4[167]|5[0-2]|6[01349]|8[056])|4(?:0[124-9]|1[02-579]|2[3-5]|3[0245]|4[023578]|58|6[349]|7[0589]|8[04])|5(?:0[1-47-9]|1[0235-8]|20|3[0149]|4[01]|5[179]|6[1-47]|7[0-5]|8[0256])|6(?:0[1-35-9]|1[024-9]|2[03689]|3[016]|4[0156]|5[01679]|6[0-279]|78|8[0-29])|7(?:0[1-46-8]|1[2-9]|2[04-8]|3[0-247]|4[037]|5[47]|6[02359]|7[0-59]|8[156])|8(?:0[1-68]|1[02-8]|2[0168]|3[0-2589]|4[03578]|5[046-9]|6[02-5]|7[028])|9(?:0[1346-9]|1[02-9]|2[0589]|3[0146-8]|4[01357-9]|5[12469]|7[0-389]|8[04-69]))[2-9]\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10",
@@ -21516,7 +21538,7 @@ internal val generatedMetadata by lazy {
                         emergency = null,
                         fixedLine = MetadataPhoneNumberDesc(
                             exampleNumber = "669050123",
-                            nationalNumberPattern = "(?:55\\d\\d|6(?:1(?:22|3[124]|4[1-4]|5[1-3578]|64)|2(?:22|3[0-57-9]|41)|5(?:22|3[3-7]|5[024-8])|6\\d\\d|7(?:[23]\\d|7[69])|9(?:22|4[1-8]|6[135]))|7(?:0(?:5[4-9]|6[0146]|7[124-6]|9[135-8])|(?:1[12]|[68]\\d)\\d|2(?:22|3[13-57-9]|4[1-3579]|5[14])|3(?:2\\d|3[1578]|4[1-35-7]|5[1-57]|61)|4(?:2\\d|3[1-579]|7[1-79])|5(?:22|5[1-9]|6[1457])|9(?:22|5[1-9])))\\d{5}",
+                            nationalNumberPattern = "(?:55\\d\\d|6(?:1(?:22|3[124]|4[1-4]|5[1-3578]|64)|2(?:22|3[0-57-9]|41)|5(?:22|3[3-7]|5[024-8])|[69]\\d\\d|7(?:[23]\\d|7[69]))|7(?:0(?:5[4-9]|6[0146]|7[124-6]|9[135-8])|[168]\\d\\d|2(?:22|3[13-57-9]|4[1-3579]|5[14])|3(?:2\\d|3[1578]|4[1-35-7]|5[1-57]|61)|4(?:2\\d|3[1-579]|7[1-79])|5(?:22|5[1-9]|6[1457])|9(?:22|5[1-9])))\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -21525,13 +21547,13 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "(?:20|33|[5-79]\\d|88)\\d{7}",
+                            nationalNumberPattern = "(?:20|33|[5-9]\\d)\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "912345678",
-                            nationalNumberPattern = "(?:(?:[25]0|33|88|9[0-57-9])\\d{3}|6(?:1(?:2(?:2[01]|98)|35[0-4]|50\\d|61[23]|7(?:[01][017]|4\\d|55|9[5-9]))|2(?:(?:11|7\\d)\\d|2(?:[12]1|9[01379])|5(?:[126]\\d|3[0-4]))|5(?:19[01]|2(?:27|9[26])|(?:30|59|7\\d)\\d)|6(?:2(?:1[5-9]|2[0367]|38|41|52|60)|(?:3[79]|9[0-3])\\d|4(?:56|83)|7(?:[07]\\d|1[017]|3[07]|4[047]|5[057]|67|8[0178]|9[79]))|7(?:2(?:24|3[237]|4[5-9]|7[15-8])|5(?:7[12]|8[0589])|7(?:0\\d|[39][07])|9(?:0\\d|7[079]))|9(?:2(?:1[1267]|3[01]|5\\d|7[0-4])|(?:5[67]|7\\d)\\d|6(?:2[0-26]|8\\d)))|7(?:[07]\\d{3}|1(?:13[01]|6(?:0[47]|1[67]|66)|71[3-69]|98\\d)|2(?:2(?:2[79]|95)|3(?:2[5-9]|6[0-6])|57\\d|7(?:0\\d|1[17]|2[27]|3[37]|44|5[057]|66|88))|3(?:2(?:1[0-6]|21|3[469]|7[159])|(?:33|9[4-6])\\d|5(?:0[0-4]|5[579]|9\\d)|7(?:[0-3579]\\d|4[0467]|6[67]|8[078]))|4(?:2(?:29|5[0257]|6[0-7]|7[1-57])|5(?:1[0-4]|8\\d|9[5-9])|7(?:0\\d|1[024589]|2[0-27]|3[0137]|[46][07]|5[01]|7[5-9]|9[079])|9(?:7[015-9]|[89]\\d))|5(?:112|2(?:0\\d|2[29]|[49]4)|3[1568]\\d|52[6-9]|7(?:0[01578]|1[017]|[23]7|4[047]|[5-7]\\d|8[78]|9[079]))|9(?:22[128]|3(?:2[0-4]|7\\d)|57[02569]|7(?:2[05-9]|3[37]|4\\d|60|7[2579]|87|9[07]))))\\d{4}",
+                            nationalNumberPattern = "(?:(?:[25]0|33|8[78]|9[0-57-9])\\d{3}|6(?:1(?:2(?:2[01]|98)|35[0-4]|50\\d|61[23]|7(?:[01][017]|4\\d|55|9[5-9]))|2(?:(?:11|7\\d)\\d|2(?:[12]1|9[01379])|5(?:[126]\\d|3[0-4]))|5(?:19[01]|2(?:27|9[26])|(?:30|59|7\\d)\\d)|6(?:2(?:1[5-9]|2[0367]|38|41|52|60)|(?:3[79]|9[0-3])\\d|4(?:56|83)|7(?:[07]\\d|1[017]|3[07]|4[047]|5[057]|67|8[0178]|9[79]))|7(?:2(?:24|3[237]|4[5-9]|7[15-8])|5(?:7[12]|8[0589])|7(?:0\\d|[39][07])|9(?:0\\d|7[079])))|7(?:[07]\\d{3}|2(?:2(?:2[79]|95)|3(?:2[5-9]|6[0-6])|57\\d|7(?:0\\d|1[17]|2[27]|3[37]|44|5[057]|66|88))|3(?:2(?:1[0-6]|21|3[469]|7[159])|(?:33|9[4-6])\\d|5(?:0[0-4]|5[579]|9\\d)|7(?:[0-3579]\\d|4[0467]|6[67]|8[078]))|4(?:2(?:29|5[0257]|6[0-7]|7[1-57])|5(?:1[0-4]|8\\d|9[5-9])|7(?:0\\d|1[024589]|2[0-27]|3[0137]|[46][07]|5[01]|7[5-9]|9[079])|9(?:7[015-9]|[89]\\d))|5(?:112|2(?:0\\d|2[29]|[49]4)|3[1568]\\d|52[6-9]|7(?:0[01578]|1[017]|[23]7|4[047]|[5-7]\\d|8[78]|9[079]))|9(?:22[128]|3(?:2[0-4]|7\\d)|57[02569]|7(?:2[05-9]|3[37]|4\\d|60|7[2579]|87|9[07]))))\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -21758,7 +21780,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "4121234567",
-                            nationalNumberPattern = "4(?:1[24-8]|2[46])\\d{7}",
+                            nationalNumberPattern = "4(?:1[24-8]|2[246])\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "10",
@@ -22197,7 +22219,7 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "(?:40|72)\\d{4}|8\\d{5}(?:\\d{3})?",
+                            nationalNumberPattern = "(?:40|72|8\\d{4})\\d{4}|[89]\\d{5}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
@@ -22232,7 +22254,15 @@ internal val generatedMetadata by lazy {
                                 localOnly = null
                             ),
                         ),
-                        voip = null,
+                        voip = MetadataPhoneNumberDesc(
+                            exampleNumber = "921234",
+                            nationalNumberPattern = "9[23]\\d{4}",
+                            possibleNumberPattern = null,
+                            possibleLengths = MetadataPossibleLengths(
+                                national = "6",
+                                localOnly = null
+                            ),
+                        ),
                         uan = null,
                         availableFormats = MetadataAvailableFormat(
                             numberFormat = listOf(
@@ -22240,7 +22270,7 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d{2})(\\d{2})(\\d{2})",
                                     format = "\$1 \$2 \$3",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("[478]"),
+                                    leadingDigitsPatterns = listOf("[47-9]"),
                                     nationalPrefixFormattingRule = null,
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -22521,13 +22551,13 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "(?:80|9\\d)\\d{7}|(?:26|63)9\\d{6}",
+                            nationalNumberPattern = "7093\\d{5}|(?:80|9\\d)\\d{7}|(?:26|63)9\\d{6}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "639012345",
-                            nationalNumberPattern = "639(?:0[0-79]|1[019]|[267]\\d|3[09]|40|5[05-9]|9[04-79])\\d{4}",
+                            nationalNumberPattern = "(?:639(?:0[0-79]|1[019]|[267]\\d|3[09]|40|5[05-9]|9[04-79])|7093[5-7])\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -22588,7 +22618,7 @@ internal val generatedMetadata by lazy {
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "711234567",
-                            nationalNumberPattern = "(?:1(?:3492[0-25]|4495[0235]|549(?:20|5[01]))|4[34]492[01])\\d{3}|8[1-4]\\d{3,7}|(?:2[27]|47|54)4950\\d{3}|(?:1(?:049[2-4]|9[12]\\d\\d)|(?:6\\d\\d|7(?:[0-46-9]\\d|5[0-4]))\\d\\d|8(?:5\\d{3}|7(?:08[67]|158|28[5-9]|310)))\\d{4}|(?:1[6-8]|28|3[2-69]|4[025689]|5[36-8])4920\\d{3}|(?:12|[2-5]1)492\\d{4}",
+                            nationalNumberPattern = "(?:1(?:3492[0-25]|4495[0235]|549(?:20|5[01]))|4[34]492[01])\\d{3}|8[1-4]\\d{3,7}|(?:2[27]|47|54)4950\\d{3}|(?:1(?:049[2-4]|9[12]\\d\\d)|(?:50[0-2]|6\\d\\d|7(?:[0-46-9]\\d|5[0-4]))\\d\\d|8(?:5\\d{3}|7(?:08[67]|158|28[5-9]|310)))\\d{4}|(?:1[6-8]|28|3[2-69]|4[025689]|5[36-8])4920\\d{3}|(?:12|[2-5]1)492\\d{4}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "[5-9]",
@@ -22711,13 +22741,13 @@ internal val generatedMetadata by lazy {
                         ),
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "800\\d{6}|(?:21|63|[79]\\d)\\d{7}",
+                            nationalNumberPattern = "800\\d{6}|(?:21|[579]\\d|63)\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
                         mobile = MetadataPhoneNumberDesc(
                             exampleNumber = "955123456",
-                            nationalNumberPattern = "(?:7[5-79]|9[5-8])\\d{7}",
+                            nationalNumberPattern = "(?:[59][5-8]|7[5-9])\\d{7}",
                             possibleNumberPattern = null,
                             possibleLengths = MetadataPossibleLengths(
                                 national = "9",
@@ -22770,7 +22800,7 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d{2})(\\d{7})",
                                     format = "\$1 \$2",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("[79]"),
+                                    leadingDigitsPatterns = listOf("[579]"),
                                     nationalPrefixFormattingRule = "\$NP\$FG",
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
@@ -23041,7 +23071,7 @@ internal val generatedMetadata by lazy {
                         fixedLine = null,
                         generalDesc = MetadataPhoneNumberDesc(
                             exampleNumber = null,
-                            nationalNumberPattern = "7\\d{11}|[35-7]\\d{8}",
+                            nationalNumberPattern = "7\\d{11}|[235-7]\\d{8}",
                             possibleNumberPattern = null,
                             possibleLengths = null,
                         ),
@@ -23060,7 +23090,15 @@ internal val generatedMetadata by lazy {
                         sharedCost = null,
                         tollFree = null,
                         voicemail = null,
-                        voip = null,
+                        voip = MetadataPhoneNumberDesc(
+                            exampleNumber = "201234567",
+                            nationalNumberPattern = "2\\d{8}",
+                            possibleNumberPattern = null,
+                            possibleLengths = MetadataPossibleLengths(
+                                national = "9",
+                                localOnly = null
+                            ),
+                        ),
                         uan = null,
                         availableFormats = MetadataAvailableFormat(
                             numberFormat = listOf(
@@ -23068,7 +23106,7 @@ internal val generatedMetadata by lazy {
                                     pattern = "(\\d{3})(\\d{3})(\\d{3})",
                                     format = "\$1 \$2 \$3",
                                     intlFormat = null,
-                                    leadingDigitsPatterns = listOf("[35-7]"),
+                                    leadingDigitsPatterns = listOf("[235-7]"),
                                     nationalPrefixFormattingRule = null,
                                     nationalPrefixOptionalWhenFormatting = null,
                                     domesticCarrierCodeFormattingRule = null,
